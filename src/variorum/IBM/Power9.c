@@ -6,12 +6,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
-
+#include <time.h>
 #include <config_architecture.h>
 #include <Power9.h>
 #include <ibm_sensors.h>
 #include <variorum_error.h>
-
+double time_total=0;
+int counter=0;
 int p9_get_power(int long_ver)
 {
     char *val = ("VARIORUM_LOG");
@@ -297,7 +298,6 @@ int p9_monitoring(FILE *output)
     unsigned iter = 0;
     unsigned nsockets;
     static unsigned count = 0;
-
     variorum_get_topology(&nsockets, NULL, NULL, P_IBM_CPU_IDX);
 
     fd = open("/sys/firmware/opal/exports/occ_inband_sensors", O_RDONLY);
@@ -382,17 +382,17 @@ int p9_get_node_power_json(char **get_power_obj_str)
     char hostname[1024];
     struct timeval tv;
     uint64_t ts;
+    struct timespec start,end;
 
     json_t *get_power_obj = json_object();
-
     variorum_get_topology(&nsockets, NULL, NULL, P_IBM_CPU_IDX);
 
+    clock_gettime(CLOCK_MONOTONIC,&start);
     gethostname(hostname, 1024);
     gettimeofday(&tv, NULL);
     ts = tv.tv_sec * (uint64_t)1000000 + tv.tv_usec;
     json_object_set_new(get_power_obj, "host", json_string(hostname));
     json_object_set_new(get_power_obj, "timestamp", json_integer(ts));
-
     fd = open("/sys/firmware/opal/exports/occ_inband_sensors", O_RDONLY);
     if (fd < 0)
     {
@@ -432,11 +432,21 @@ int p9_get_node_power_json(char **get_power_obj_str)
         json_get_power_sensors(iter, get_power_obj, buf);
         free(buf);
     }
-
     // Export JSON object as a string for returning.
+    // clock_gettime(CLOCK_MONOTONIC,&start_1);
     *get_power_obj_str = json_dumps(get_power_obj, 0);
+    // clock_gettime(CLOCK_MONOTONIC,&end_1);
+    // double time_spent_1=(end_1.tv_sec-start_1.tv_sec)+(end_1.tv_nsec-start_1.tv_nsec)/1E9;
+  // time_total_1+=time_spent_1;
+    // printf("Time spent on JSON DUMP %f on host: %s \n",time_total_1,hostname);
     json_decref(get_power_obj);
     close(fd);
+    clock_gettime(CLOCK_MONOTONIC,&end);
+    counter++;
+    double time_spent=(end.tv_sec-start.tv_sec)+(end.tv_nsec-start.tv_nsec)/1E9;
+    time_total+=time_spent;
+    printf("Individual time spent on file operation  Power9 API %f and hostname %s\n",time_spent,hostname);
+    printf("Time spent on file operation  Power9 CPU %f on host: %s counter: %d  \n",time_total,hostname,counter);
     return 0;
 }
 

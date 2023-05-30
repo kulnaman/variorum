@@ -10,10 +10,10 @@
 #include <config_architecture.h>
 #include <variorum.h>
 #include <variorum_error.h>
-
+#include <time.h>
 int g_socket;
 int g_core;
-
+double time_total;
 static void print_children(hwloc_topology_t topology, hwloc_obj_t obj,
                            int depth)
 {
@@ -958,6 +958,9 @@ int variorum_disable_turbo(void)
 
 int variorum_get_node_power_json(char **get_power_obj_str)
 {
+    struct timespec start,end;
+    clock_gettime(CLOCK_MONOTONIC,&start);
+  
     int err = 0;
     int i;
     err = variorum_enter(__FILE__, __FUNCTION__, __LINE__);
@@ -1008,6 +1011,11 @@ int variorum_get_node_power_json(char **get_power_obj_str)
     {
         return -1;
     }
+    clock_gettime(CLOCK_MONOTONIC,&end);
+    double time_spent=(end.tv_sec-start.tv_sec)+(end.tv_nsec-start.tv_nsec)/1E9;
+    time_total+=time_spent;
+    printf("Individual time spent on variorum API %f \n",time_spent);
+    printf("Time spent on file operation  variorum %f \n",time_total);
     return err;
 }
 

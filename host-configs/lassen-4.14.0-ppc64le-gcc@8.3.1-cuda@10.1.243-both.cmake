@@ -8,10 +8,10 @@ set(CMAKE_C_COMPILER "/usr/tce/packages/gcc/gcc-8.3.1/bin/gcc" CACHE PATH "")
 
 # cpp compiler
 set(CMAKE_CXX_COMPILER "/usr/tce/packages/gcc/gcc-8.3.1/bin/g++" CACHE PATH "")
-
+set(ENABLE_MPI ON CACHE BOOL "")
 set(BUILD_DOCS OFF CACHE BOOL "")
 set(BUILD_TESTS OFF CACHE BOOL "")
-
+set(VARIORUM_DEBUG ON CACHE BOOL "")
 set(VARIORUM_WITH_IBM_CPU ON CACHE BOOL "")
 set(VARIORUM_WITH_NVIDIA_GPU ON CACHE BOOL "")
 set(VARIORUM_WITH_INTEL_CPU OFF CACHE BOOL "")
@@ -29,3 +29,5 @@ set(CMAKE_SHARED_LINKER_FLAGS "-L/usr/tce/packages/cuda/cuda-10.1.243/nvidia/tar
 set(HWLOC_DIR "/usr/global/tools/hwloc/blueos_3_ppc64le_ib/hwloc-1.11.10-cuda/" CACHE PATH "")
 
 set(NVML_DIR "/usr/tce/packages/cuda/cuda-10.1.243" CACHE PATH "")
+set(JANSSON_DIR "/g/g92/namankul/local/jansson_lassen" CACHE PATH "")
+set(RANKSTR_DIR "/g/g92/namankul/local/rankstr_lassen" CACHE PATH "")

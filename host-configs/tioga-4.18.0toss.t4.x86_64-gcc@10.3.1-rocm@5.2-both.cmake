@@ -5,7 +5,7 @@
 
 # c compiler
 set(CMAKE_C_COMPILER "/usr/tce/packages/gcc-tce/gcc-10.3.1/bin/gcc" CACHE PATH "")
-
+set(MPI_HOME "/opt/cray/pe/mpich/8.1.25/ofi/cray/10.0/bin" CACHE PATH "")
 # cpp compiler
 set(CMAKE_CXX_COMPILER "/usr/tce/packages/gcc-tce/gcc-10.3.1/bin/g++" CACHE PATH "")
 
@@ -34,3 +34,4 @@ set(ESMI_DIR "/usr/workspace/msr/tioga_common_setup/esmi_install/e_smi" CACHE PA
 #ROCm setup
 set(CMAKE_SHARED_LINKER_FLAGS "-L/opt/rocm-5.2.0/lib -lrocm_smi64" CACHE PATH "")
 set(ROCM_DIR "/opt/rocm-5.2.0/" CACHE PATH "")
+set(JANSSON_DIR "/g/g92/namankul/local/jansson" CACHE PATH "")
