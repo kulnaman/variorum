@@ -105,7 +105,7 @@ int main(int argc, char **argv)
     th_args.sample_interval = FASTEST_SAMPLE_INTERVAL_MS;
     th_args.measure_all = false;
 
-    while ((opt = getopt(argc, argv, "ca:p:i:v")) != -1)
+    while ((opt = getopt(argc, argv, "ca:p:i:f:v")) != -1)
     {
         switch (opt)
         {
@@ -286,6 +286,9 @@ int main(int argc, char **argv)
 
         if (logpath)
         {
+            if(filename)
+            rc = asprintf(&fname_summary, "%s/%s_%s.powmon.summary", logpath,filename, hostname);
+            else
             /* Output summary data into the specified location. */
             rc = asprintf(&fname_summary, "%s/%s.powmon.summary", logpath, hostname);
             if (rc == -1)
@@ -297,6 +300,9 @@ int main(int argc, char **argv)
         }
         else
         {
+            if(filename)
+            rc = asprintf(&fname_summary, "%s_%s.powmon.summary",filename, hostname);
+            else
             /* Output summary data into the default location. */
             rc = asprintf(&fname_summary, "%s.powmon.summary", hostname);
             if (rc == -1)
