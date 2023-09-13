@@ -1,0 +1,1088 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AMD_INSTINCT	config_architecture.h	/^    AMD_INSTINCT = 1,$/;"	e	enum:amd_gpu_arch_e
+ARMV8	config_architecture.h	/^    ARMV8 = 1, \/\/ARM Juno$/;"	e	enum:arm_arch_e
+ARM_H_INCLUDE	ARM/ARM.h	7;"	d
+BATCH_LOAD	msr/msr_core.h	/^    BATCH_LOAD,$/;"	e	enum:variorum_batch_op_type_e
+BATCH_READ	msr/msr_core.h	/^    BATCH_READ,$/;"	e	enum:variorum_batch_op_type_e
+BATCH_WRITE	msr/msr_core.h	/^    BATCH_WRITE,$/;"	e	enum:variorum_batch_op_type_e
+BITS_TO_JOULES	Intel/power_features.h	/^    BITS_TO_JOULES,$/;"	e	enum:variorum_unit_conversions_e
+BITS_TO_JOULES_DRAM	Intel/power_features.h	/^    BITS_TO_JOULES_DRAM$/;"	e	enum:variorum_unit_conversions_e
+BITS_TO_SECONDS_STD	Intel/power_features.h	/^    BITS_TO_SECONDS_STD,$/;"	e	enum:variorum_unit_conversions_e
+BITS_TO_WATTS	Intel/power_features.h	/^    BITS_TO_WATTS,$/;"	e	enum:variorum_unit_conversions_e
+BROADWELL_4F_H_INCLUDE	Intel/Intel_06_4F.h	7;"	d
+CLOCKS_DATA	msr/msr_core.h	/^    CLOCKS_DATA = 6,$/;"	e	enum:variorum_data_type_e
+CLOCKS_FEATURES_H_INCLUDE	Intel/clocks_features.h	7;"	d
+CONFIG_AMD_GPU_H_INCLUDE	AMD_GPU/config_amd_gpu.h	7;"	d
+CONFIG_AMD_H_INCLUDE	AMD/config_amd.h	7;"	d
+CONFIG_ARCHIECTURE_H_INCLUDE	config_architecture.h	7;"	d
+CONFIG_ARM_H_INCLUDE	ARM/config_arm.h	7;"	d
+CONFIG_IBM_H_INCLUDE	IBM/config_ibm.h	7;"	d
+CONFIG_INTEL_GPU_H_INCLUDE	Intel_GPU/config_intel_gpu.h	7;"	d
+CONFIG_INTEL_H_INCLUDE	Intel/config_intel.h	7;"	d
+CONFIG_NVIDIA_H_INCLUDE	Nvidia_GPU/config_nvidia.h	7;"	d
+CORE	config_architecture.h	/^    CORE,$/;"	e	enum:ctl_domains_e
+CORE_CRESIDENCY	msr/msr_core.h	/^    CORE_CRESIDENCY = 15,$/;"	e	enum:variorum_data_type_e
+COUNTERS_CTRL	msr/msr_core.h	/^    COUNTERS_CTRL = 5,$/;"	e	enum:variorum_data_type_e
+COUNTERS_DATA	msr/msr_core.h	/^    COUNTERS_DATA = 4,$/;"	e	enum:variorum_data_type_e
+COUNTERS_FEATURES_H_INCLUDE	Intel/counters_features.h	7;"	d
+CPUID_H_INCLUDE	Intel/variorum_cpuid.h	7;"	d
+EPYC_19h_offsets	AMD/energy_feature.h	/^struct EPYC_19h_offsets$/;"	s
+EPYC_H_INCLUDE	AMD/epyc.h	7;"	d
+FILENAME_SIZE	msr/msr_core.h	23;"	d
+FIXED_COUNTERS_CTRL_DATA	msr/msr_core.h	/^    FIXED_COUNTERS_CTRL_DATA = 3,$/;"	e	enum:variorum_data_type_e
+FIXED_COUNTERS_DATA	msr/msr_core.h	/^    FIXED_COUNTERS_DATA = 2,$/;"	e	enum:variorum_data_type_e
+FM_06_2A	config_architecture.h	/^    FM_06_2A = 42,  \/\/ Ivy Bridge-E$/;"	e	enum:intel_arch_e
+FM_06_2D	config_architecture.h	/^    FM_06_2D = 45,  \/\/ Ivy Bridge-E$/;"	e	enum:intel_arch_e
+FM_06_3A	config_architecture.h	/^    FM_06_3A = 58,  \/\/ Ivy Bridge$/;"	e	enum:intel_arch_e
+FM_06_3C	config_architecture.h	/^    FM_06_3C = 60,  \/\/ Haswell, Haswell-E$/;"	e	enum:intel_arch_e
+FM_06_3D	config_architecture.h	/^    FM_06_3D = 61,  \/\/ Broadwell$/;"	e	enum:intel_arch_e
+FM_06_3E	config_architecture.h	/^    FM_06_3E = 62,  \/\/ Ivy Bridge$/;"	e	enum:intel_arch_e
+FM_06_3F	config_architecture.h	/^    FM_06_3F = 63,  \/\/ Haswell-E$/;"	e	enum:intel_arch_e
+FM_06_45	config_architecture.h	/^    FM_06_45 = 69,  \/\/ Haswell, Haswell-E$/;"	e	enum:intel_arch_e
+FM_06_46	config_architecture.h	/^    FM_06_46 = 70,  \/\/ Haswell, Haswell-E$/;"	e	enum:intel_arch_e
+FM_06_47	config_architecture.h	/^    FM_06_47 = 71,  \/\/ Broadwell$/;"	e	enum:intel_arch_e
+FM_06_4E	config_architecture.h	/^    FM_06_4E = 78,  \/\/ Skylake$/;"	e	enum:intel_arch_e
+FM_06_4F	config_architecture.h	/^    FM_06_4F = 79,  \/\/ Broadwell$/;"	e	enum:intel_arch_e
+FM_06_55	config_architecture.h	/^    FM_06_55 = 85,  \/\/ Skylake, Cascade Lake, Cooper Lake$/;"	e	enum:intel_arch_e
+FM_06_56	config_architecture.h	/^    FM_06_56 = 86,  \/\/ Broadwell$/;"	e	enum:intel_arch_e
+FM_06_57	config_architecture.h	/^    FM_06_57 = 87,  \/\/ Knights Landing$/;"	e	enum:intel_arch_e
+FM_06_5E	config_architecture.h	/^    FM_06_5E = 94,  \/\/ Skylake$/;"	e	enum:intel_arch_e
+FM_06_6A	config_architecture.h	/^    FM_06_6A = 106, \/\/ IceLake$/;"	e	enum:intel_arch_e
+FM_06_8E	config_architecture.h	/^    FM_06_8E = 142, \/\/ Kaby Lake$/;"	e	enum:intel_arch_e
+FM_06_9E	config_architecture.h	/^    FM_06_9E = 158, \/\/ Kaby Lake$/;"	e	enum:intel_arch_e
+HASWELL_3F_H_INCLUDE	Intel/Intel_06_3F.h	7;"	d
+IBM_CORE_HEADER_INCLUDE	IBM/ibm_sensors.h	7;"	d
+ICELAKE_6A_H_INCLUDE	Intel/Intel_06_6A.h	7;"	d
+INSTINCTGPU_H_INCLUDE	AMD_GPU/instinctGPU.h	7;"	d
+INTEL_GPU_H_INCLUDE	Intel_GPU/GPU.h	7;"	d
+IVYBRIDGE_3E_H_INCLUDE	Intel/Intel_06_3E.h	7;"	d
+JOULES_TO_BITS	Intel/power_features.h	/^    JOULES_TO_BITS,$/;"	e	enum:variorum_unit_conversions_e
+KABYLAKE_9E_H_INCLUDE	Intel/Intel_06_9E.h	7;"	d
+MASK_RANGE	config_architecture.h	20;"	d
+MASK_VAL	config_architecture.h	25;"	d
+MAX_CHARS_SENSOR_NAME	IBM/ibm_sensors.h	29;"	d
+MAX_CHARS_SENSOR_UNIT	IBM/ibm_sensors.h	30;"	d
+MAX_EFFICIENCY	msr/msr_core.h	/^    MAX_EFFICIENCY = 31,$/;"	e	enum:variorum_data_type_e
+MAX_OCCS	IBM/ibm_sensors.h	28;"	d
+MAX_PLATFORMS	config_architecture.c	53;"	d	file:
+MIN_OPERATING_RATIO	msr/msr_core.h	/^    MIN_OPERATING_RATIO = 30,$/;"	e	enum:variorum_data_type_e
+MISC_FEATURES_H_INCLUDE	Intel/misc_features.h	7;"	d
+MSR_ALLOWLIST_PATH	msr/msr_core.h	18;"	d
+MSR_ALLOWLIST_PATH	msr/msr_core.h	20;"	d
+MSR_BATCH_PATH	msr/msr_core.h	16;"	d
+MSR_CORE_H_INCLUDE	msr/msr_core.h	7;"	d
+MSR_SAFE_PATH_FMT	msr/msr_core.h	15;"	d
+MSR_STOCK_PATH_FMT	msr/msr_core.h	14;"	d
+NAME_MAX	msr/msr_core.h	26;"	d
+NAME_MAX	variorum_error.h	10;"	d
+NODE	config_architecture.h	/^    NODE,$/;"	e	enum:ctl_domains_e
+OCC_SENSOR_DATA_BLOCK_OFFSET	IBM/ibm_sensors.h	32;"	d
+OCC_SENSOR_DATA_BLOCK_SIZE	IBM/ibm_sensors.h	33;"	d
+OCC_SENSOR_LOC_CORE	IBM/ibm_sensors.h	/^    OCC_SENSOR_LOC_CORE      = 0x0040,$/;"	e	enum:occ_sensor_location
+OCC_SENSOR_LOC_GPU	IBM/ibm_sensors.h	/^    OCC_SENSOR_LOC_GPU       = 0x0080,$/;"	e	enum:occ_sensor_location
+OCC_SENSOR_LOC_MEMORY	IBM/ibm_sensors.h	/^    OCC_SENSOR_LOC_MEMORY    = 0x0008,$/;"	e	enum:occ_sensor_location
+OCC_SENSOR_LOC_OCC	IBM/ibm_sensors.h	/^    OCC_SENSOR_LOC_OCC       = 0x0020,$/;"	e	enum:occ_sensor_location
+OCC_SENSOR_LOC_PARTITION	IBM/ibm_sensors.h	/^    OCC_SENSOR_LOC_PARTITION = 0x0004,$/;"	e	enum:occ_sensor_location
+OCC_SENSOR_LOC_PROCESSOR	IBM/ibm_sensors.h	/^    OCC_SENSOR_LOC_PROCESSOR = 0x0002,$/;"	e	enum:occ_sensor_location
+OCC_SENSOR_LOC_QUAD	IBM/ibm_sensors.h	/^    OCC_SENSOR_LOC_QUAD      = 0x0100,$/;"	e	enum:occ_sensor_location
+OCC_SENSOR_LOC_SYSTEM	IBM/ibm_sensors.h	/^    OCC_SENSOR_LOC_SYSTEM    = 0x0001,$/;"	e	enum:occ_sensor_location
+OCC_SENSOR_LOC_VRM	IBM/ibm_sensors.h	/^    OCC_SENSOR_LOC_VRM       = 0x0010,$/;"	e	enum:occ_sensor_location
+OCC_SENSOR_READING_COUNTER	IBM/ibm_sensors.h	/^    OCC_SENSOR_READING_COUNTER = 0x02,$/;"	e	enum:sensor_struct_type
+OCC_SENSOR_READING_FULL	IBM/ibm_sensors.h	/^    OCC_SENSOR_READING_FULL    = 0x01,$/;"	e	enum:sensor_struct_type
+OCC_SENSOR_TYPE_CURRENT	IBM/ibm_sensors.h	/^    OCC_SENSOR_TYPE_CURRENT     = 0x0002,$/;"	e	enum:occ_sensor_type
+OCC_SENSOR_TYPE_FREQUENCY	IBM/ibm_sensors.h	/^    OCC_SENSOR_TYPE_FREQUENCY   = 0x0040,$/;"	e	enum:occ_sensor_type
+OCC_SENSOR_TYPE_GENERIC	IBM/ibm_sensors.h	/^    OCC_SENSOR_TYPE_GENERIC     = 0x0001,$/;"	e	enum:occ_sensor_type
+OCC_SENSOR_TYPE_PERFORMANCE	IBM/ibm_sensors.h	/^    OCC_SENSOR_TYPE_PERFORMANCE = 0x0200,$/;"	e	enum:occ_sensor_type
+OCC_SENSOR_TYPE_POWER	IBM/ibm_sensors.h	/^    OCC_SENSOR_TYPE_POWER       = 0x0080,$/;"	e	enum:occ_sensor_type
+OCC_SENSOR_TYPE_TEMPERATURE	IBM/ibm_sensors.h	/^    OCC_SENSOR_TYPE_TEMPERATURE = 0x0008,$/;"	e	enum:occ_sensor_type
+OCC_SENSOR_TYPE_TIME	IBM/ibm_sensors.h	/^    OCC_SENSOR_TYPE_TIME        = 0x0020,$/;"	e	enum:occ_sensor_type
+OCC_SENSOR_TYPE_UTILIZATION	IBM/ibm_sensors.h	/^    OCC_SENSOR_TYPE_UTILIZATION = 0x0010,$/;"	e	enum:occ_sensor_type
+OCC_SENSOR_TYPE_VOLTAGE	IBM/ibm_sensors.h	/^    OCC_SENSOR_TYPE_VOLTAGE     = 0x0004,$/;"	e	enum:occ_sensor_type
+PERF_CTRL	msr/msr_core.h	/^    PERF_CTRL = 13,$/;"	e	enum:variorum_data_type_e
+PERF_DATA	msr/msr_core.h	/^    PERF_DATA = 7,$/;"	e	enum:variorum_data_type_e
+PKG_CRESIDENCY	msr/msr_core.h	/^    PKG_CRESIDENCY = 14,$/;"	e	enum:variorum_data_type_e
+PKG_THERM_INTERR	msr/msr_core.h	/^    PKG_THERM_INTERR = 11,$/;"	e	enum:variorum_data_type_e
+PKG_THERM_STAT	msr/msr_core.h	/^    PKG_THERM_STAT = 10,$/;"	e	enum:variorum_data_type_e
+PLATFORM_INFO	msr/msr_core.h	/^    PLATFORM_INFO = 29,$/;"	e	enum:variorum_data_type_e
+POWER9	config_architecture.h	/^    POWER9 = 9, \/\/ Power9$/;"	e	enum:ibm_arch_e
+POWER9_H_INCLUDE	IBM/Power9.h	7;"	d
+POWER_FEATURES_H_INCLUDE	AMD_GPU/power_features.h	7;"	d
+POWER_FEATURES_H_INCLUDE	ARM/power_features.h	7;"	d
+POWER_FEATURES_H_INCLUDE	Intel/power_features.h	7;"	d
+POWER_FEATURES_H_INCLUDE	Intel_GPU/power_features.h	7;"	d
+POWER_FEATURES_H_INCLUDE	Nvidia_GPU/power_features.h	7;"	d
+PROCHOT_event	Intel/thermal_features.h	/^    int PROCHOT_event;$/;"	m	struct:pkg_therm_stat
+PROCHOT_log	Intel/thermal_features.h	/^    int PROCHOT_log;$/;"	m	struct:pkg_therm_stat
+PROCHOT_or_FORCEPR_event	Intel/thermal_features.h	/^    int PROCHOT_or_FORCEPR_event;$/;"	m	struct:therm_stat
+PROCHOT_or_FORCEPR_log	Intel/thermal_features.h	/^    int PROCHOT_or_FORCEPR_log;$/;"	m	struct:therm_stat
+P_AMD_CPU_IDX	config_architecture.h	/^    P_AMD_CPU_IDX,$/;"	e	enum:supported_platforms_e
+P_AMD_GPU_IDX	config_architecture.h	/^    P_AMD_GPU_IDX,$/;"	e	enum:supported_platforms_e
+P_ARM_CPU_IDX	config_architecture.h	/^    P_ARM_CPU_IDX,$/;"	e	enum:supported_platforms_e
+P_IBM_CPU_IDX	config_architecture.h	/^    P_IBM_CPU_IDX,$/;"	e	enum:supported_platforms_e
+P_INTEL_CPU_IDX	config_architecture.h	/^    P_INTEL_CPU_IDX,$/;"	e	enum:supported_platforms_e
+P_INTEL_GPU_IDX	config_architecture.h	/^    P_INTEL_GPU_IDX,$/;"	e	enum:supported_platforms_e
+P_MSR_CORE_IDX	config_architecture.c	/^int P_MSR_CORE_IDX;$/;"	v
+P_NUM_PLATFORMS	config_architecture.h	/^    P_NUM_PLATFORMS$/;"	e	enum:supported_platforms_e
+P_NVIDIA_GPU_IDX	config_architecture.h	/^    P_NVIDIA_GPU_IDX,$/;"	e	enum:supported_platforms_e
+QuoteIdent	variorum.h	559;"	d
+QuoteMacro	variorum.h	560;"	d
+RAPL_DATA	msr/msr_core.h	/^    RAPL_DATA = 0,$/;"	e	enum:variorum_data_type_e
+RAPL_UNIT	msr/msr_core.h	/^    RAPL_UNIT = 1,$/;"	e	enum:variorum_data_type_e
+SANDYBRIDGE_2A_H_INCLUDE	Intel/Intel_06_2A.h	7;"	d
+SANDYBRIDGE_2D_H_INCLUDE	Intel/Intel_06_2D.h	7;"	d
+SECONDS_TO_BITS_STD	Intel/power_features.h	/^    SECONDS_TO_BITS_STD,$/;"	e	enum:variorum_unit_conversions_e
+SENSOR_ACCUMULATOR	IBM/ibm_sensors.h	/^    SENSOR_ACCUMULATOR,$/;"	e	enum:sensor_attr
+SENSOR_SAMPLE	IBM/ibm_sensors.h	/^    SENSOR_SAMPLE,$/;"	e	enum:sensor_attr
+SHARED	config_architecture.h	/^    SHARED \/\/ MSR or bit field that governs the operation of both processor cores.$/;"	e	enum:ctl_domains_e
+SKYLAKE_55_H_INCLUDE	Intel/Intel_06_55.h	7;"	d
+SOCKET	config_architecture.h	/^    SOCKET,$/;"	e	enum:ctl_domains_e
+STD_ENERGY_UNIT	Intel/power_features.h	15;"	d
+TDP_CONFIG	msr/msr_core.h	/^    TDP_CONFIG = 36,$/;"	e	enum:variorum_data_type_e
+TDP_DEFS	msr/msr_core.h	/^    TDP_DEFS = 35,$/;"	e	enum:variorum_data_type_e
+TEMP_TARGET	msr/msr_core.h	/^    TEMP_TARGET = 12,$/;"	e	enum:variorum_data_type_e
+THERMAL_FEATURES_H_INCLUDE	Intel/thermal_features.h	7;"	d
+THERM_INTERR	msr/msr_core.h	/^    THERM_INTERR = 9,$/;"	e	enum:variorum_data_type_e
+THERM_STAT	msr/msr_core.h	/^    THERM_STAT = 8,$/;"	e	enum:variorum_data_type_e
+THREAD	config_architecture.h	/^    THREAD,$/;"	e	enum:ctl_domains_e
+TILE	config_architecture.h	/^    TILE,$/;"	e	enum:ctl_domains_e
+TO_FP	IBM/ibm_sensors.h	35;"	d
+TURBO_RATIO_LIMIT	msr/msr_core.h	/^    TURBO_RATIO_LIMIT = 32,$/;"	e	enum:variorum_data_type_e
+TURBO_RATIO_LIMIT1	msr/msr_core.h	/^    TURBO_RATIO_LIMIT1 = 33,$/;"	e	enum:variorum_data_type_e
+TURBO_RATIO_LIMIT_CORES	msr/msr_core.h	/^    TURBO_RATIO_LIMIT_CORES = 34,$/;"	e	enum:variorum_data_type_e
+UINT_MAX	Intel/power_features.h	14;"	d
+UNCORE_COUNT	msr/msr_core.h	/^    UNCORE_COUNT = 17,$/;"	e	enum:variorum_data_type_e
+UNCORE_EVTSEL	msr/msr_core.h	/^    UNCORE_EVTSEL = 16,$/;"	e	enum:variorum_data_type_e
+UNIQUE	config_architecture.h	/^    UNIQUE, \/\/ Each processor core has a separate MSR,$/;"	e	enum:ctl_domains_e
+USR_BATCH0	msr/msr_core.h	/^    USR_BATCH0 = 18,$/;"	e	enum:variorum_data_type_e
+USR_BATCH1	msr/msr_core.h	/^    USR_BATCH1 = 19,$/;"	e	enum:variorum_data_type_e
+USR_BATCH10	msr/msr_core.h	/^    USR_BATCH10 = 28,$/;"	e	enum:variorum_data_type_e
+USR_BATCH2	msr/msr_core.h	/^    USR_BATCH2 = 20,$/;"	e	enum:variorum_data_type_e
+USR_BATCH3	msr/msr_core.h	/^    USR_BATCH3 = 21,$/;"	e	enum:variorum_data_type_e
+USR_BATCH4	msr/msr_core.h	/^    USR_BATCH4 = 22,$/;"	e	enum:variorum_data_type_e
+USR_BATCH5	msr/msr_core.h	/^    USR_BATCH5 = 23,$/;"	e	enum:variorum_data_type_e
+USR_BATCH6	msr/msr_core.h	/^    USR_BATCH6 = 24,$/;"	e	enum:variorum_data_type_e
+USR_BATCH7	msr/msr_core.h	/^    USR_BATCH7 = 25,$/;"	e	enum:variorum_data_type_e
+USR_BATCH8	msr/msr_core.h	/^    USR_BATCH8 = 26,$/;"	e	enum:variorum_data_type_e
+USR_BATCH9	msr/msr_core.h	/^    USR_BATCH9 = 27,$/;"	e	enum:variorum_data_type_e
+VARIORUM_CONFIG_H	variorum_config.h	7;"	d
+VARIORUM_CXX_COMPILER	variorum_config.h	22;"	d
+VARIORUM_C_COMPILER	variorum_config.h	24;"	d
+VARIORUM_ERROR_ARRAY_BOUNDS	variorum_error.h	/^    VARIORUM_ERROR_ARRAY_BOUNDS            = -5,$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_FEATURE_NOT_AVAILABLE	variorum_error.h	/^    VARIORUM_ERROR_FEATURE_NOT_AVAILABLE   = -14,$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_FEATURE_NOT_IMPLEMENTED	variorum_error.h	/^    VARIORUM_ERROR_FEATURE_NOT_IMPLEMENTED = -13,$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_FUNCTION	variorum_error.h	/^    VARIORUM_ERROR_FUNCTION                = -15$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_H_INCLUDE	variorum_error.h	7;"	d
+VARIORUM_ERROR_INVAL	variorum_error.h	/^    VARIORUM_ERROR_INVAL                   = -10,$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_MSR_BATCH	variorum_error.h	/^    VARIORUM_ERROR_MSR_BATCH               = -9,$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_MSR_CLOSE	variorum_error.h	/^    VARIORUM_ERROR_MSR_CLOSE               = -3,$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_MSR_MODULE	variorum_error.h	/^    VARIORUM_ERROR_MSR_MODULE              = -7,$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_MSR_READ	variorum_error.h	/^    VARIORUM_ERROR_MSR_READ                = -4,$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_MSR_WRITE	variorum_error.h	/^    VARIORUM_ERROR_MSR_WRITE               = -8,$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_PLATFORM_ENV	variorum_error.h	/^    VARIORUM_ERROR_PLATFORM_ENV            = -6,$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_RAPL_INIT	variorum_error.h	/^    VARIORUM_ERROR_RAPL_INIT               = -2,$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_RUNTIME	variorum_error.h	/^    VARIORUM_ERROR_RUNTIME                 = -1,$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_UNSUPPORTED_ARCH	variorum_error.h	/^    VARIORUM_ERROR_UNSUPPORTED_ARCH        = -12,$/;"	e	enum:variorum_error_e
+VARIORUM_ERROR_UNSUPPORTED_PLATFORM	variorum_error.h	/^    VARIORUM_ERROR_UNSUPPORTED_PLATFORM    = -11,$/;"	e	enum:variorum_error_e
+VARIORUM_FORTRAN_COMPILER	variorum_config.h	26;"	d
+VARIORUM_H_INCLUDE	variorum.h	7;"	d
+VARIORUM_INSTALL_PREFIX	variorum_config.h	18;"	d
+VARIORUM_SYSTEM_TYPE	variorum_config.h	28;"	d
+VARIORUM_TIMERS_H_INCLUDE	variorum_timers.h	7;"	d
+VARIORUM_TOPOLOGY_H_INCLUDE	variorum_topology.h	7;"	d
+VARIORUM_VERSION	variorum_config.h	20;"	d
+VARIORUM_WITH_IBM_CPU	variorum_config.h	12;"	d
+VARIORUM_WITH_NVIDIA_GPU	variorum_config.h	13;"	d
+VOLTA	config_architecture.h	/^    VOLTA = 1, \/\/ Volta$/;"	e	enum:nvidia_gpu_arch_e
+VOLTA_H_INCLUDE	Nvidia_GPU/Volta.h	7;"	d
+WATTS_TO_BITS	Intel/power_features.h	/^    WATTS_TO_BITS,$/;"	e	enum:variorum_unit_conversions_e
+X86_IOC_MSR_BATCH	msr/msr_core.h	13;"	d
+_XOPEN_SOURCE	msr/msr_core.c	7;"	d	file:
+accumulator	IBM/ibm_sensors.h	/^    uint64_t accumulator;$/;"	m	struct:occ_sensor_counter
+accumulator	IBM/ibm_sensors.h	/^    uint64_t accumulator;$/;"	m	struct:occ_sensor_record
+allocate_batch	msr/msr_core.c	/^int allocate_batch(int batchnum, size_t bsize)$/;"	f
+amd_gpu_arch_e	config_architecture.h	/^enum amd_gpu_arch_e$/;"	g
+anyThread	Intel/counters_features.h	/^    uint64_t *anyThread;$/;"	m	struct:fixed_counter
+aperf	Intel/clocks_features.h	/^    uint64_t **aperf;$/;"	m	struct:clocks_data
+arch_id	config_architecture.h	/^    uint64_t *arch_id;$/;"	m	struct:platform
+arm_arch_e	config_architecture.h	/^enum arm_arch_e$/;"	g
+arm_cap_socket_frequency	ARM/ARM.c	/^int arm_cap_socket_frequency(int cpuid, int freq)$/;"	f
+arm_get_clocks	ARM/ARM.c	/^int arm_get_clocks(int long_ver)$/;"	f
+arm_get_frequencies	ARM/ARM.c	/^int arm_get_frequencies(void)$/;"	f
+arm_get_power	ARM/ARM.c	/^int arm_get_power(int long_ver)$/;"	f
+arm_get_power_domain_info_json	ARM/ARM.c	/^int arm_get_power_domain_info_json(char **get_domain_obj_str)$/;"	f
+arm_get_power_json	ARM/ARM.c	/^int arm_get_power_json(char **get_power_obj_str)$/;"	f
+arm_get_thermals	ARM/ARM.c	/^int arm_get_thermals(int long_ver)$/;"	f
+batch_storage	msr/msr_core.c	/^static int batch_storage(struct msr_batch_array **batchsel, const int batchnum,$/;"	f	file:
+bits	Intel/power_features.h	/^    uint64_t bits;$/;"	m	struct:rapl_limit
+broadwell_4f_offsets	Intel/Intel_06_4F.h	/^struct broadwell_4f_offsets$/;"	s
+c0	Intel/counters_features.h	/^    uint64_t **c0;$/;"	m	struct:unc_counters
+c0	Intel/counters_features.h	/^    uint64_t **c0;$/;"	m	struct:unc_perfevtsel
+c1	Intel/counters_features.h	/^    uint64_t **c1;$/;"	m	struct:unc_counters
+c1	Intel/counters_features.h	/^    uint64_t **c1;$/;"	m	struct:unc_perfevtsel
+c2	Intel/counters_features.h	/^    uint64_t **c2;$/;"	m	struct:unc_counters
+c2	Intel/counters_features.h	/^    uint64_t **c2;$/;"	m	struct:unc_perfevtsel
+c3	Intel/counters_features.h	/^    uint64_t **c3;$/;"	m	struct:unc_counters
+c3	Intel/counters_features.h	/^    uint64_t **c3;$/;"	m	struct:unc_perfevtsel
+calc_dram_rapl_limit	Intel/power_features.c	/^static int calc_dram_rapl_limit(const unsigned socket, struct rapl_limit *limit,$/;"	f	file:
+calc_package_rapl_limit	Intel/power_features.c	/^static int calc_package_rapl_limit(const unsigned socket,$/;"	f	file:
+calc_rapl_bits	Intel/power_features.c	/^static int calc_rapl_bits(const unsigned socket, struct rapl_limit *limit,$/;"	f	file:
+calc_rapl_from_bits	Intel/power_features.c	/^static int calc_rapl_from_bits(const unsigned socket, struct rapl_limit *limit,$/;"	f	file:
+cap_each_gpu_power_limit	AMD_GPU/power_features.c	/^void cap_each_gpu_power_limit(int chipid, int total_sockets,$/;"	f
+cap_each_gpu_power_limit	Intel_GPU/power_features.c	/^void cap_each_gpu_power_limit(int chipid, unsigned int powerlimit)$/;"	f
+cap_each_gpu_power_limit	Nvidia_GPU/power_features.c	/^void cap_each_gpu_power_limit(int chipid, unsigned int powerlimit)$/;"	f
+cap_p_state	Intel/clocks_features.c	/^void cap_p_state(int cpu_freq_mhz, enum ctl_domains_e domain,$/;"	f
+cap_package_power_limit	Intel/power_features.c	/^int cap_package_power_limit(const unsigned socket, int package_power_limit,$/;"	f
+cap_socket_frequency	ARM/power_features.c	/^int cap_socket_frequency(int socketid, int new_freq)$/;"	f
+clear_all_pcu	Intel/counters_features.c	/^void clear_all_pcu(off_t *msrs_pcu_pmon_ctrs)$/;"	f
+clear_all_pmc	Intel/counters_features.c	/^void clear_all_pmc(off_t *msrs_perfmon_ctrs)$/;"	f
+clocks_data	Intel/clocks_features.h	/^struct clocks_data$/;"	s
+clocks_storage	Intel/clocks_features.c	/^void clocks_storage(struct clocks_data **cd, off_t msr_aperf, off_t msr_mperf,$/;"	f
+compatibility_batch	msr/msr_core.c	/^static int compatibility_batch(int batchnum, int type)$/;"	f	file:
+config_tdp	Intel/misc_features.c	/^int config_tdp(int nlevels, off_t msr_config_tdp_level)$/;"	f
+core_bits	AMD/energy_feature.h	/^    uint64_t **core_bits;$/;"	m	struct:rapl_data
+core_fd	msr/msr_core.c	/^static int *core_fd(const unsigned dev_idx)$/;"	f	file:
+core_joules	AMD/energy_feature.h	/^    double *core_joules;$/;"	m	struct:rapl_data
+cores_assert	msr/msr_core.c	/^int cores_assert(const unsigned *core)$/;"	f
+cpu	msr/msr_core.h	/^    __u16 cpu;$/;"	m	struct:msr_batch_op
+cpuid	Intel/variorum_cpuid.c	/^void cpuid(uint64_t leaf, uint64_t *rax, uint64_t *rbx, uint64_t *rcx,$/;"	f
+cpuid_num_pmc	Intel/counters_features.c	/^int cpuid_num_pmc(void)$/;"	f
+create_batch_op	msr/msr_core.c	/^int create_batch_op(off_t msr, uint64_t cpu, uint64_t **dest,$/;"	f
+create_rapl_data_batch	AMD/energy_feature.c	/^static void create_rapl_data_batch(struct rapl_data *rapl,$/;"	f	file:
+create_rapl_data_batch	Intel/power_features.c	/^static void create_rapl_data_batch(struct rapl_data *rapl,$/;"	f	file:
+crit_temp_log	Intel/thermal_features.h	/^    int crit_temp_log;$/;"	m	struct:pkg_therm_stat
+crit_temp_log	Intel/thermal_features.h	/^    int crit_temp_log;$/;"	m	struct:therm_stat
+crit_temp_status	Intel/thermal_features.h	/^    int crit_temp_status;$/;"	m	struct:pkg_therm_stat
+crit_temp_status	Intel/thermal_features.h	/^    int crit_temp_status;$/;"	m	struct:therm_stat
+csm_max	IBM/ibm_sensors.h	/^    uint16_t csm_max;$/;"	m	struct:occ_sensor_record
+csm_min	IBM/ibm_sensors.h	/^    uint16_t csm_min;$/;"	m	struct:occ_sensor_record
+ctl_domains_e	config_architecture.h	/^enum ctl_domains_e$/;"	g
+delta_rapl_data	Intel/power_features.c	/^int delta_rapl_data(off_t msr_rapl_unit)$/;"	f
+detect_amd_arch	AMD/config_amd.c	/^uint64_t *detect_amd_arch(void)$/;"	f
+detect_amd_gpu_arch	AMD_GPU/config_amd_gpu.c	/^uint64_t *detect_amd_gpu_arch(void)$/;"	f
+detect_arm_arch	ARM/config_arm.c	/^uint64_t *detect_arm_arch(void)$/;"	f
+detect_gpu_arch	Nvidia_GPU/config_nvidia.c	/^uint64_t *detect_gpu_arch(void)$/;"	f
+detect_ibm_arch	IBM/config_ibm.c	/^uint64_t *detect_ibm_arch(void)$/;"	f
+detect_intel_arch	Intel/config_intel.c	/^uint64_t *detect_intel_arch(void)$/;"	f
+detect_intel_gpu_arch	Intel_GPU/config_intel_gpu.c	/^uint64_t *detect_intel_gpu_arch(void)$/;"	f
+devidx	msr/msr_core.c	/^static uint64_t devidx(unsigned socket, unsigned core, unsigned thread)$/;"	f	file:
+disable_fixed_counters	Intel/counters_features.c	/^void disable_fixed_counters(off_t *msrs_fixed_ctrs, off_t msr1, off_t msr2)$/;"	f
+do_batch_op	msr/msr_core.c	/^static int do_batch_op(int batchnum, int type)$/;"	f	file:
+dram_bits	Intel/power_features.h	/^    uint64_t **dram_bits;$/;"	m	struct:rapl_data
+dram_delta_joules	Intel/power_features.h	/^    double *dram_delta_joules;$/;"	m	struct:rapl_data
+dram_joules	Intel/power_features.h	/^    double *dram_joules;$/;"	m	struct:rapl_data
+dram_max_power	Intel/power_features.h	/^    double dram_max_power;$/;"	m	struct:rapl_dram_power_info
+dram_max_window	Intel/power_features.h	/^    double dram_max_window;$/;"	m	struct:rapl_dram_power_info
+dram_min_power	Intel/power_features.h	/^    double dram_min_power;$/;"	m	struct:rapl_dram_power_info
+dram_perf_count	Intel/power_features.h	/^    uint64_t **dram_perf_count;$/;"	m	struct:rapl_data
+dram_therm_power	Intel/power_features.h	/^    double dram_therm_power;$/;"	m	struct:rapl_dram_power_info
+dram_watts	Intel/power_features.h	/^    double *dram_watts;$/;"	m	struct:rapl_data
+elapsed	Intel/power_features.h	/^    double elapsed;$/;"	m	struct:rapl_data
+enable	Intel/counters_features.h	/^    uint64_t *enable;$/;"	m	struct:fixed_counter
+enable_fixed_counters	Intel/counters_features.c	/^void enable_fixed_counters(off_t *msrs_fixed_ctrs, off_t msr1, off_t msr2)$/;"	f
+enable_pcu	Intel/counters_features.c	/^void enable_pcu(off_t *msrs_pcu_pmon_evtsel, off_t *msrs_pcu_pmon_ctrs)$/;"	f
+enable_pmc	Intel/counters_features.c	/^int enable_pmc(off_t *msrs_perfevtsel_ctrs, off_t *msrs_perfmon_ctrs)$/;"	f
+epyc_get_node_power_domain_info_json	AMD/epyc.c	/^int epyc_get_node_power_domain_info_json(char **get_domain_obj_str)$/;"	f
+epyc_get_node_power_json	AMD/epyc.c	/^int epyc_get_node_power_json(char **get_power_obj_str)$/;"	f
+epyc_get_power	AMD/epyc.c	/^int epyc_get_power(int long_ver)$/;"	f
+epyc_get_power_limits	AMD/epyc.c	/^int epyc_get_power_limits(int long_ver)$/;"	f
+epyc_print_boostlimit	AMD/epyc.c	/^int epyc_print_boostlimit()$/;"	f
+epyc_print_energy	AMD/epyc.c	/^int epyc_print_energy()$/;"	f
+epyc_set_and_verify_best_effort_node_power_limit	AMD/epyc.c	/^int epyc_set_and_verify_best_effort_node_power_limit(int pcap_new)$/;"	f
+epyc_set_each_core_boostlimit	AMD/epyc.c	/^int epyc_set_each_core_boostlimit(int boostlimit)$/;"	f
+epyc_set_socket_boostlimit	AMD/epyc.c	/^int epyc_set_socket_boostlimit(int socket, int boostlimit)$/;"	f
+epyc_set_socket_power_limit	AMD/epyc.c	/^int epyc_set_socket_power_limit(int pcap_new)$/;"	f
+err	msr/msr_core.h	/^    __s32 err;$/;"	m	struct:msr_batch_op
+finalize_msr	msr/msr_core.c	/^int finalize_msr(void)$/;"	f
+fixed_counter	Intel/counters_features.h	/^struct fixed_counter$/;"	s
+fixed_counter_config	Intel/counters_features.h	/^struct fixed_counter_config$/;"	s
+fixed_counter_ctrl_storage	Intel/counters_features.c	/^void fixed_counter_ctrl_storage(uint64_t ***perf_ctrl, uint64_t ***fixed_ctrl,$/;"	f
+fixed_counter_storage	Intel/counters_features.c	/^void fixed_counter_storage(struct fixed_counter **ctr0,$/;"	f
+fm_06_2a_cap_best_effort_node_power_limit	Intel/Intel_06_2A.c	/^int fm_06_2a_cap_best_effort_node_power_limit(int node_limit)$/;"	f
+fm_06_2a_cap_power_limits	Intel/Intel_06_2A.c	/^int fm_06_2a_cap_power_limits(int package_power_limit)$/;"	f
+fm_06_2a_disable_turbo	Intel/Intel_06_2A.c	/^int fm_06_2a_disable_turbo(void)$/;"	f
+fm_06_2a_enable_turbo	Intel/Intel_06_2A.c	/^int fm_06_2a_enable_turbo(void)$/;"	f
+fm_06_2a_get_clocks	Intel/Intel_06_2A.c	/^int fm_06_2a_get_clocks(int long_ver)$/;"	f
+fm_06_2a_get_counters	Intel/Intel_06_2A.c	/^int fm_06_2a_get_counters(int long_ver)$/;"	f
+fm_06_2a_get_features	Intel/Intel_06_2A.c	/^int fm_06_2a_get_features(void)$/;"	f
+fm_06_2a_get_frequencies	Intel/Intel_06_2A.c	/^int fm_06_2a_get_frequencies(void)$/;"	f
+fm_06_2a_get_node_power_domain_info_json	Intel/Intel_06_2A.c	/^int fm_06_2a_get_node_power_domain_info_json(char **get_domain_obj_str)$/;"	f
+fm_06_2a_get_node_power_json	Intel/Intel_06_2A.c	/^int fm_06_2a_get_node_power_json(char **get_power_obj_str)$/;"	f
+fm_06_2a_get_power	Intel/Intel_06_2A.c	/^int fm_06_2a_get_power(int long_ver)$/;"	f
+fm_06_2a_get_power_limits	Intel/Intel_06_2A.c	/^int fm_06_2a_get_power_limits(int long_ver)$/;"	f
+fm_06_2a_get_thermals	Intel/Intel_06_2A.c	/^int fm_06_2a_get_thermals(int long_ver)$/;"	f
+fm_06_2a_get_turbo_status	Intel/Intel_06_2A.c	/^int fm_06_2a_get_turbo_status(void)$/;"	f
+fm_06_2a_monitoring	Intel/Intel_06_2A.c	/^int fm_06_2a_monitoring(FILE *output)$/;"	f
+fm_06_2a_poll_power	Intel/Intel_06_2A.c	/^int fm_06_2a_poll_power(FILE *output)$/;"	f
+fm_06_2d_cap_best_effort_node_power_limit	Intel/Intel_06_2D.c	/^int fm_06_2d_cap_best_effort_node_power_limit(int node_limit)$/;"	f
+fm_06_2d_cap_power_limits	Intel/Intel_06_2D.c	/^int fm_06_2d_cap_power_limits(int package_power_limit)$/;"	f
+fm_06_2d_disable_turbo	Intel/Intel_06_2D.c	/^int fm_06_2d_disable_turbo(void)$/;"	f
+fm_06_2d_enable_turbo	Intel/Intel_06_2D.c	/^int fm_06_2d_enable_turbo(void)$/;"	f
+fm_06_2d_get_clocks	Intel/Intel_06_2D.c	/^int fm_06_2d_get_clocks(int long_ver)$/;"	f
+fm_06_2d_get_counters	Intel/Intel_06_2D.c	/^int fm_06_2d_get_counters(int long_ver)$/;"	f
+fm_06_2d_get_features	Intel/Intel_06_2D.c	/^int fm_06_2d_get_features(void)$/;"	f
+fm_06_2d_get_frequencies	Intel/Intel_06_2D.c	/^int fm_06_2d_get_frequencies(void)$/;"	f
+fm_06_2d_get_node_power_domain_info_json	Intel/Intel_06_2D.c	/^int fm_06_2d_get_node_power_domain_info_json(char **get_domain_obj_str)$/;"	f
+fm_06_2d_get_node_power_json	Intel/Intel_06_2D.c	/^int fm_06_2d_get_node_power_json(char **get_power_obj_str)$/;"	f
+fm_06_2d_get_power	Intel/Intel_06_2D.c	/^int fm_06_2d_get_power(int long_ver)$/;"	f
+fm_06_2d_get_power_limits	Intel/Intel_06_2D.c	/^int fm_06_2d_get_power_limits(int long_ver)$/;"	f
+fm_06_2d_get_thermals	Intel/Intel_06_2D.c	/^int fm_06_2d_get_thermals(int long_ver)$/;"	f
+fm_06_2d_get_turbo_status	Intel/Intel_06_2D.c	/^int fm_06_2d_get_turbo_status(void)$/;"	f
+fm_06_2d_monitoring	Intel/Intel_06_2D.c	/^int fm_06_2d_monitoring(FILE *output)$/;"	f
+fm_06_2d_poll_power	Intel/Intel_06_2D.c	/^int fm_06_2d_poll_power(FILE *output)$/;"	f
+fm_06_3e_cap_best_effort_node_power_limit	Intel/Intel_06_3E.c	/^int fm_06_3e_cap_best_effort_node_power_limit(int node_limit)$/;"	f
+fm_06_3e_cap_power_limits	Intel/Intel_06_3E.c	/^int fm_06_3e_cap_power_limits(int package_power_limit)$/;"	f
+fm_06_3e_disable_turbo	Intel/Intel_06_3E.c	/^int fm_06_3e_disable_turbo(void)$/;"	f
+fm_06_3e_enable_turbo	Intel/Intel_06_3E.c	/^int fm_06_3e_enable_turbo(void)$/;"	f
+fm_06_3e_get_clocks	Intel/Intel_06_3E.c	/^int fm_06_3e_get_clocks(int long_ver)$/;"	f
+fm_06_3e_get_counters	Intel/Intel_06_3E.c	/^int fm_06_3e_get_counters(int long_ver)$/;"	f
+fm_06_3e_get_features	Intel/Intel_06_3E.c	/^int fm_06_3e_get_features(void)$/;"	f
+fm_06_3e_get_frequencies	Intel/Intel_06_3E.c	/^int fm_06_3e_get_frequencies(void)$/;"	f
+fm_06_3e_get_node_power_domain_info_json	Intel/Intel_06_3E.c	/^int fm_06_3e_get_node_power_domain_info_json(char **get_domain_obj_str)$/;"	f
+fm_06_3e_get_node_power_json	Intel/Intel_06_3E.c	/^int fm_06_3e_get_node_power_json(char **get_power_obj_str)$/;"	f
+fm_06_3e_get_power	Intel/Intel_06_3E.c	/^int fm_06_3e_get_power(int long_ver)$/;"	f
+fm_06_3e_get_power_limits	Intel/Intel_06_3E.c	/^int fm_06_3e_get_power_limits(int long_ver)$/;"	f
+fm_06_3e_get_thermals	Intel/Intel_06_3E.c	/^int fm_06_3e_get_thermals(int long_ver)$/;"	f
+fm_06_3e_get_turbo_status	Intel/Intel_06_3E.c	/^int fm_06_3e_get_turbo_status(void)$/;"	f
+fm_06_3e_monitoring	Intel/Intel_06_3E.c	/^int fm_06_3e_monitoring(FILE *output)$/;"	f
+fm_06_3e_poll_power	Intel/Intel_06_3E.c	/^int fm_06_3e_poll_power(FILE *output)$/;"	f
+fm_06_3f_cap_best_effort_node_power_limit	Intel/Intel_06_3F.c	/^int fm_06_3f_cap_best_effort_node_power_limit(int node_limit)$/;"	f
+fm_06_3f_cap_power_limits	Intel/Intel_06_3F.c	/^int fm_06_3f_cap_power_limits(int package_power_limit)$/;"	f
+fm_06_3f_disable_turbo	Intel/Intel_06_3F.c	/^int fm_06_3f_disable_turbo(void)$/;"	f
+fm_06_3f_enable_turbo	Intel/Intel_06_3F.c	/^int fm_06_3f_enable_turbo(void)$/;"	f
+fm_06_3f_get_clocks	Intel/Intel_06_3F.c	/^int fm_06_3f_get_clocks(int long_ver)$/;"	f
+fm_06_3f_get_counters	Intel/Intel_06_3F.c	/^int fm_06_3f_get_counters(int long_ver)$/;"	f
+fm_06_3f_get_features	Intel/Intel_06_3F.c	/^int fm_06_3f_get_features(void)$/;"	f
+fm_06_3f_get_frequencies	Intel/Intel_06_3F.c	/^int fm_06_3f_get_frequencies(void)$/;"	f
+fm_06_3f_get_node_power_domain_info_json	Intel/Intel_06_3F.c	/^int fm_06_3f_get_node_power_domain_info_json(char **get_domain_obj_str)$/;"	f
+fm_06_3f_get_node_power_json	Intel/Intel_06_3F.c	/^int fm_06_3f_get_node_power_json(char **get_power_obj_str)$/;"	f
+fm_06_3f_get_power	Intel/Intel_06_3F.c	/^int fm_06_3f_get_power(int long_ver)$/;"	f
+fm_06_3f_get_power_limits	Intel/Intel_06_3F.c	/^int fm_06_3f_get_power_limits(int long_ver)$/;"	f
+fm_06_3f_get_thermals	Intel/Intel_06_3F.c	/^int fm_06_3f_get_thermals(int long_ver)$/;"	f
+fm_06_3f_get_turbo_status	Intel/Intel_06_3F.c	/^int fm_06_3f_get_turbo_status(void)$/;"	f
+fm_06_3f_monitoring	Intel/Intel_06_3F.c	/^int fm_06_3f_monitoring(FILE *output)$/;"	f
+fm_06_3f_poll_power	Intel/Intel_06_3F.c	/^int fm_06_3f_poll_power(FILE *output)$/;"	f
+fm_06_4f_cap_best_effort_node_power_limit	Intel/Intel_06_4F.c	/^int fm_06_4f_cap_best_effort_node_power_limit(int node_limit)$/;"	f
+fm_06_4f_cap_power_limits	Intel/Intel_06_4F.c	/^int fm_06_4f_cap_power_limits(int package_power_limit)$/;"	f
+fm_06_4f_disable_turbo	Intel/Intel_06_4F.c	/^int fm_06_4f_disable_turbo(void)$/;"	f
+fm_06_4f_enable_turbo	Intel/Intel_06_4F.c	/^int fm_06_4f_enable_turbo(void)$/;"	f
+fm_06_4f_get_clocks	Intel/Intel_06_4F.c	/^int fm_06_4f_get_clocks(int long_ver)$/;"	f
+fm_06_4f_get_counters	Intel/Intel_06_4F.c	/^int fm_06_4f_get_counters(int long_ver)$/;"	f
+fm_06_4f_get_features	Intel/Intel_06_4F.c	/^int fm_06_4f_get_features(void)$/;"	f
+fm_06_4f_get_frequencies	Intel/Intel_06_4F.c	/^int fm_06_4f_get_frequencies(void)$/;"	f
+fm_06_4f_get_node_power_domain_info_json	Intel/Intel_06_4F.c	/^int fm_06_4f_get_node_power_domain_info_json(char **get_domain_obj_str)$/;"	f
+fm_06_4f_get_node_power_json	Intel/Intel_06_4F.c	/^int fm_06_4f_get_node_power_json(char **get_power_obj_str)$/;"	f
+fm_06_4f_get_power	Intel/Intel_06_4F.c	/^int fm_06_4f_get_power(int long_ver)$/;"	f
+fm_06_4f_get_power_limits	Intel/Intel_06_4F.c	/^int fm_06_4f_get_power_limits(int long_ver)$/;"	f
+fm_06_4f_get_thermals	Intel/Intel_06_4F.c	/^int fm_06_4f_get_thermals(int long_ver)$/;"	f
+fm_06_4f_get_turbo_status	Intel/Intel_06_4F.c	/^int fm_06_4f_get_turbo_status(void)$/;"	f
+fm_06_4f_monitoring	Intel/Intel_06_4F.c	/^int fm_06_4f_monitoring(FILE *output)$/;"	f
+fm_06_4f_poll_power	Intel/Intel_06_4F.c	/^int fm_06_4f_poll_power(FILE *output)$/;"	f
+fm_06_55_cap_best_effort_node_power_limit	Intel/Intel_06_55.c	/^int fm_06_55_cap_best_effort_node_power_limit(int node_limit)$/;"	f
+fm_06_55_cap_frequency	Intel/Intel_06_55.c	/^int fm_06_55_cap_frequency(int core_freq_mhz)$/;"	f
+fm_06_55_cap_power_limits	Intel/Intel_06_55.c	/^int fm_06_55_cap_power_limits(int package_power_limit)$/;"	f
+fm_06_55_get_clocks	Intel/Intel_06_55.c	/^int fm_06_55_get_clocks(int long_ver)$/;"	f
+fm_06_55_get_counters	Intel/Intel_06_55.c	/^int fm_06_55_get_counters(int long_ver)$/;"	f
+fm_06_55_get_features	Intel/Intel_06_55.c	/^int fm_06_55_get_features(void)$/;"	f
+fm_06_55_get_frequencies	Intel/Intel_06_55.c	/^int fm_06_55_get_frequencies(void)$/;"	f
+fm_06_55_get_node_power_domain_info_json	Intel/Intel_06_55.c	/^int fm_06_55_get_node_power_domain_info_json(char **get_domain_obj_str)$/;"	f
+fm_06_55_get_node_power_json	Intel/Intel_06_55.c	/^int fm_06_55_get_node_power_json(char **get_power_obj_str)$/;"	f
+fm_06_55_get_power	Intel/Intel_06_55.c	/^int fm_06_55_get_power(int long_ver)$/;"	f
+fm_06_55_get_power_limits	Intel/Intel_06_55.c	/^int fm_06_55_get_power_limits(int long_ver)$/;"	f
+fm_06_55_get_thermals	Intel/Intel_06_55.c	/^int fm_06_55_get_thermals(int long_ver)$/;"	f
+fm_06_55_monitoring	Intel/Intel_06_55.c	/^int fm_06_55_monitoring(FILE *output)$/;"	f
+fm_06_55_poll_power	Intel/Intel_06_55.c	/^int fm_06_55_poll_power(FILE *output)$/;"	f
+fm_06_6a_get_features	Intel/Intel_06_6A.c	/^int fm_06_6a_get_features(void)$/;"	f
+fm_06_6a_get_node_power_domain_info_json	Intel/Intel_06_6A.c	/^int fm_06_6a_get_node_power_domain_info_json(char **get_domain_obj_str)$/;"	f
+fm_06_6a_get_node_power_json	Intel/Intel_06_6A.c	/^int fm_06_6a_get_node_power_json(char **get_power_obj_str)$/;"	f
+fm_06_6a_get_power	Intel/Intel_06_6A.c	/^int fm_06_6a_get_power(int long_ver)$/;"	f
+fm_06_6a_get_power_limits	Intel/Intel_06_6A.c	/^int fm_06_6a_get_power_limits(int long_ver)$/;"	f
+fm_06_9e_cap_best_effort_node_power_limit	Intel/Intel_06_9E.c	/^int fm_06_9e_cap_best_effort_node_power_limit(int node_limit)$/;"	f
+fm_06_9e_cap_power_limits	Intel/Intel_06_9E.c	/^int fm_06_9e_cap_power_limits(int package_power_limit)$/;"	f
+fm_06_9e_get_clocks	Intel/Intel_06_9E.c	/^int fm_06_9e_get_clocks(int long_ver)$/;"	f
+fm_06_9e_get_counters	Intel/Intel_06_9E.c	/^int fm_06_9e_get_counters(int long_ver)$/;"	f
+fm_06_9e_get_features	Intel/Intel_06_9E.c	/^int fm_06_9e_get_features(void)$/;"	f
+fm_06_9e_get_frequencies	Intel/Intel_06_9E.c	/^int fm_06_9e_get_frequencies(void)$/;"	f
+fm_06_9e_get_node_power_domain_info_json	Intel/Intel_06_9E.c	/^int fm_06_9e_get_node_power_domain_info_json(char **get_domain_obj_str)$/;"	f
+fm_06_9e_get_node_power_json	Intel/Intel_06_9E.c	/^int fm_06_9e_get_node_power_json(char **get_power_obj_str)$/;"	f
+fm_06_9e_get_power	Intel/Intel_06_9E.c	/^int fm_06_9e_get_power(int long_ver)$/;"	f
+fm_06_9e_get_power_limits	Intel/Intel_06_9E.c	/^int fm_06_9e_get_power_limits(int long_ver)$/;"	f
+fm_06_9e_get_thermals	Intel/Intel_06_9E.c	/^int fm_06_9e_get_thermals(int long_ver)$/;"	f
+fm_06_9e_monitoring	Intel/Intel_06_9E.c	/^int fm_06_9e_monitoring(FILE *output)$/;"	f
+fm_06_9e_poll_power	Intel/Intel_06_9E.c	/^int fm_06_9e_poll_power(FILE *output)$/;"	f
+freq	IBM/ibm_sensors.h	/^    uint32_t freq;$/;"	m	struct:occ_sensor_name
+g_core	variorum.c	/^int g_core;$/;"	v
+g_platform	config_architecture.c	/^struct platform g_platform[MAX_PLATFORMS];$/;"	v	typeref:struct:platform
+g_socket	variorum.c	/^int g_socket;$/;"	v
+get_all_power_data	Intel/power_features.c	/^void get_all_power_data(FILE *writedest, off_t msr_pkg_power_limit,$/;"	f
+get_all_power_data_fixed	Intel/counters_features.c	/^void get_all_power_data_fixed(FILE *writedest, off_t msr_pkg_power_limit,$/;"	f
+get_available_frequencies	Intel/clocks_features.c	/^void get_available_frequencies(FILE *writedest, off_t *msr_platform_info,$/;"	f
+get_available_frequencies_skx	Intel/clocks_features.c	/^void get_available_frequencies_skx(FILE *writedest, off_t *msr_platform_info,$/;"	f
+get_avx_limits	Intel/misc_features.c	/^int get_avx_limits(off_t *msr_platform_info, off_t *msr_config_tdp_l1,$/;"	f
+get_clocks_data	AMD_GPU/power_features.c	/^void get_clocks_data(int chipid, int total_sockets, int verbose, FILE *output)$/;"	f
+get_clocks_data	ARM/power_features.c	/^int get_clocks_data(int chipid, int verbose, FILE *output)$/;"	f
+get_clocks_data	Intel_GPU/power_features.c	/^void get_clocks_data(int chipid, int verbose, FILE *output)$/;"	f
+get_clocks_data	Nvidia_GPU/power_features.c	/^void get_clocks_data(int chipid, int verbose, FILE *output)$/;"	f
+get_dram_rapl_limit	Intel/power_features.c	/^int get_dram_rapl_limit(const unsigned socket, struct rapl_limit *limit,$/;"	f
+get_frequencies	ARM/power_features.c	/^int get_frequencies(int chipid, FILE *output)$/;"	f
+get_gpu_utilization	Nvidia_GPU/power_features.c	/^void get_gpu_utilization(int chipid, int verbose, FILE *output)$/;"	f
+get_gpu_utilization_data	AMD_GPU/power_features.c	/^void get_gpu_utilization_data(int chipid, int total_sockets, int verbose,$/;"	f
+get_max_efficiency_ratio	Intel/misc_features.c	/^int get_max_efficiency_ratio(off_t msr_platform_info, int *val)$/;"	f
+get_max_non_turbo_ratio	Intel/misc_features.c	/^int get_max_non_turbo_ratio(off_t msr_platform_info, int *val)$/;"	f
+get_min_operating_ratio	Intel/misc_features.c	/^int get_min_operating_ratio(off_t msr_platform_info, int *val)$/;"	f
+get_package_rapl_limit	Intel/power_features.c	/^int get_package_rapl_limit(const unsigned socket, struct rapl_limit *limit1,$/;"	f
+get_pkg_therm_stat	Intel/thermal_features.c	/^int get_pkg_therm_stat(struct pkg_therm_stat *s, off_t msr)$/;"	f
+get_power	Intel/power_features.c	/^int get_power(off_t msr_rapl_unit, off_t msr_pkg_energy_status,$/;"	f
+get_power_data	AMD_GPU/power_features.c	/^void get_power_data(int chipid, int total_sockets, int verbose, FILE *output)$/;"	f
+get_power_data	ARM/power_features.c	/^int get_power_data(int verbose, FILE *output)$/;"	f
+get_power_data	Intel_GPU/power_features.c	/^void get_power_data(int chipid, int verbose, FILE *output)$/;"	f
+get_power_data	Nvidia_GPU/power_features.c	/^void get_power_data(int chipid, int verbose, FILE *output)$/;"	f
+get_power_limit_data	AMD_GPU/power_features.c	/^void get_power_limit_data(int chipid, int total_sockets, int verbose,$/;"	f
+get_power_limit_data	Intel_GPU/power_features.c	/^void get_power_limit_data(int chipid, int verbose, FILE *output)$/;"	f
+get_power_limits	Nvidia_GPU/power_features.c	/^void get_power_limits(int chipid, int verbose, FILE *output)$/;"	f
+get_rapl_dram_power_info	Intel/power_features.c	/^int get_rapl_dram_power_info(const unsigned socket,$/;"	f
+get_rapl_pkg_power_info	Intel/power_features.c	/^int get_rapl_pkg_power_info(const unsigned socket,$/;"	f
+get_rapl_power_unit	Intel/power_features.c	/^int get_rapl_power_unit(struct rapl_units *ru, off_t msr)$/;"	f
+get_rapl_unit	AMD/energy_feature.c	/^static int get_rapl_unit(off_t msr_rapl_unit, double *energy_val)$/;"	f	file:
+get_temp_target	Intel/thermal_features.c	/^void get_temp_target(struct msr_temp_target *s, off_t msr)$/;"	f
+get_therm_stat	Intel/thermal_features.c	/^void get_therm_stat(struct therm_stat *s, off_t msr)$/;"	f
+get_thermal_data	ARM/power_features.c	/^int get_thermal_data(int verbose, FILE *output)$/;"	f
+get_thermal_data	Intel_GPU/power_features.c	/^void get_thermal_data(int chipid, int verbose, FILE *output)$/;"	f
+get_thermal_data	Nvidia_GPU/power_features.c	/^void get_thermal_data(int chipid, int verbose, FILE *output)$/;"	f
+get_thermals_data	AMD_GPU/power_features.c	/^void get_thermals_data(int chipid, int total_sockets, int verbose, FILE *output)$/;"	f
+get_turbo_ratio_limit	Intel/misc_features.c	/^int get_turbo_ratio_limit(off_t msr_turbo_ratio_limit)$/;"	f
+get_turbo_ratio_limits	Intel/misc_features.c	/^int get_turbo_ratio_limits(off_t msr_turbo_ratio_limit,$/;"	f
+get_turbo_ratio_limits_skx	Intel/misc_features.c	/^int get_turbo_ratio_limits_skx(off_t msr_turbo_ratio_limit,$/;"	f
+get_variorum_error_message	variorum_error.c	/^char *get_variorum_error_message(enum variorum_error_e err)$/;"	f
+gpu_power_ratio_unimplemented	Intel/config_intel.c	/^int gpu_power_ratio_unimplemented(int long_ver)$/;"	f
+gsid	IBM/ibm_sensors.h	/^    uint16_t gsid;$/;"	m	struct:occ_sensor_counter
+gsid	IBM/ibm_sensors.h	/^    uint16_t gsid;$/;"	m	struct:occ_sensor_name
+gsid	IBM/ibm_sensors.h	/^    uint16_t gsid;$/;"	m	struct:occ_sensor_record
+haswell_3f_offsets	Intel/Intel_06_3F.h	/^struct haswell_3f_offsets$/;"	s
+hostname	config_architecture.h	/^    char hostname[1024];$/;"	m	struct:platform
+ia32_aperf	Intel/Intel_06_2A.h	/^    off_t ia32_aperf;$/;"	m	struct:sandybridge_2a_offsets
+ia32_aperf	Intel/Intel_06_2D.h	/^    off_t ia32_aperf;$/;"	m	struct:sandybridge_2d_offsets
+ia32_aperf	Intel/Intel_06_3E.h	/^    off_t ia32_aperf;$/;"	m	struct:ivybridge_3e_offsets
+ia32_aperf	Intel/Intel_06_3F.h	/^    off_t ia32_aperf;$/;"	m	struct:haswell_3f_offsets
+ia32_aperf	Intel/Intel_06_4F.h	/^    off_t ia32_aperf;$/;"	m	struct:broadwell_4f_offsets
+ia32_aperf	Intel/Intel_06_55.h	/^    off_t ia32_aperf;$/;"	m	struct:skylake_55_offsets
+ia32_aperf	Intel/Intel_06_9E.h	/^    off_t ia32_aperf;$/;"	m	struct:kabylake_9e_offsets
+ia32_fixed_counters	Intel/Intel_06_2A.h	/^    off_t ia32_fixed_counters[3];$/;"	m	struct:sandybridge_2a_offsets
+ia32_fixed_counters	Intel/Intel_06_2D.h	/^    off_t ia32_fixed_counters[3];$/;"	m	struct:sandybridge_2d_offsets
+ia32_fixed_counters	Intel/Intel_06_3E.h	/^    off_t ia32_fixed_counters[3];$/;"	m	struct:ivybridge_3e_offsets
+ia32_fixed_counters	Intel/Intel_06_3F.h	/^    off_t ia32_fixed_counters[3];$/;"	m	struct:haswell_3f_offsets
+ia32_fixed_counters	Intel/Intel_06_4F.h	/^    off_t ia32_fixed_counters[3];$/;"	m	struct:broadwell_4f_offsets
+ia32_fixed_counters	Intel/Intel_06_55.h	/^    off_t ia32_fixed_counters[3];$/;"	m	struct:skylake_55_offsets
+ia32_fixed_counters	Intel/Intel_06_9E.h	/^    off_t ia32_fixed_counters[3];$/;"	m	struct:kabylake_9e_offsets
+ia32_fixed_ctr_ctrl	Intel/Intel_06_2A.h	/^    off_t ia32_fixed_ctr_ctrl;$/;"	m	struct:sandybridge_2a_offsets
+ia32_fixed_ctr_ctrl	Intel/Intel_06_2D.h	/^    off_t ia32_fixed_ctr_ctrl;$/;"	m	struct:sandybridge_2d_offsets
+ia32_fixed_ctr_ctrl	Intel/Intel_06_3E.h	/^    off_t ia32_fixed_ctr_ctrl;$/;"	m	struct:ivybridge_3e_offsets
+ia32_fixed_ctr_ctrl	Intel/Intel_06_3F.h	/^    off_t ia32_fixed_ctr_ctrl;$/;"	m	struct:haswell_3f_offsets
+ia32_fixed_ctr_ctrl	Intel/Intel_06_4F.h	/^    off_t ia32_fixed_ctr_ctrl;$/;"	m	struct:broadwell_4f_offsets
+ia32_fixed_ctr_ctrl	Intel/Intel_06_55.h	/^    off_t ia32_fixed_ctr_ctrl;$/;"	m	struct:skylake_55_offsets
+ia32_fixed_ctr_ctrl	Intel/Intel_06_9E.h	/^    off_t ia32_fixed_ctr_ctrl;$/;"	m	struct:kabylake_9e_offsets
+ia32_misc_enable	Intel/Intel_06_2A.h	/^    off_t ia32_misc_enable;$/;"	m	struct:sandybridge_2a_offsets
+ia32_misc_enable	Intel/Intel_06_2D.h	/^    off_t ia32_misc_enable;$/;"	m	struct:sandybridge_2d_offsets
+ia32_misc_enable	Intel/Intel_06_3E.h	/^    off_t ia32_misc_enable;$/;"	m	struct:ivybridge_3e_offsets
+ia32_misc_enable	Intel/Intel_06_3F.h	/^    off_t ia32_misc_enable;$/;"	m	struct:haswell_3f_offsets
+ia32_misc_enable	Intel/Intel_06_4F.h	/^    off_t ia32_misc_enable;$/;"	m	struct:broadwell_4f_offsets
+ia32_misc_enable	Intel/Intel_06_55.h	/^    off_t ia32_misc_enable;$/;"	m	struct:skylake_55_offsets
+ia32_misc_enable	Intel/Intel_06_9E.h	/^    off_t ia32_misc_enable;$/;"	m	struct:kabylake_9e_offsets
+ia32_mperf	Intel/Intel_06_2A.h	/^    off_t ia32_mperf;$/;"	m	struct:sandybridge_2a_offsets
+ia32_mperf	Intel/Intel_06_2D.h	/^    off_t ia32_mperf;$/;"	m	struct:sandybridge_2d_offsets
+ia32_mperf	Intel/Intel_06_3E.h	/^    off_t ia32_mperf;$/;"	m	struct:ivybridge_3e_offsets
+ia32_mperf	Intel/Intel_06_3F.h	/^    off_t ia32_mperf;$/;"	m	struct:haswell_3f_offsets
+ia32_mperf	Intel/Intel_06_4F.h	/^    off_t ia32_mperf;$/;"	m	struct:broadwell_4f_offsets
+ia32_mperf	Intel/Intel_06_55.h	/^    off_t ia32_mperf;$/;"	m	struct:skylake_55_offsets
+ia32_mperf	Intel/Intel_06_9E.h	/^    off_t ia32_mperf;$/;"	m	struct:kabylake_9e_offsets
+ia32_package_therm_interrupt	Intel/Intel_06_2A.h	/^    off_t ia32_package_therm_interrupt;$/;"	m	struct:sandybridge_2a_offsets
+ia32_package_therm_interrupt	Intel/Intel_06_2D.h	/^    off_t ia32_package_therm_interrupt;$/;"	m	struct:sandybridge_2d_offsets
+ia32_package_therm_interrupt	Intel/Intel_06_3E.h	/^    off_t ia32_package_therm_interrupt;$/;"	m	struct:ivybridge_3e_offsets
+ia32_package_therm_interrupt	Intel/Intel_06_3F.h	/^    off_t ia32_package_therm_interrupt;$/;"	m	struct:haswell_3f_offsets
+ia32_package_therm_interrupt	Intel/Intel_06_4F.h	/^    off_t ia32_package_therm_interrupt;$/;"	m	struct:broadwell_4f_offsets
+ia32_package_therm_interrupt	Intel/Intel_06_55.h	/^    off_t ia32_package_therm_interrupt;$/;"	m	struct:skylake_55_offsets
+ia32_package_therm_interrupt	Intel/Intel_06_9E.h	/^    off_t ia32_package_therm_interrupt;$/;"	m	struct:kabylake_9e_offsets
+ia32_package_therm_status	Intel/Intel_06_2A.h	/^    off_t ia32_package_therm_status;$/;"	m	struct:sandybridge_2a_offsets
+ia32_package_therm_status	Intel/Intel_06_2D.h	/^    off_t ia32_package_therm_status;$/;"	m	struct:sandybridge_2d_offsets
+ia32_package_therm_status	Intel/Intel_06_3E.h	/^    off_t ia32_package_therm_status;$/;"	m	struct:ivybridge_3e_offsets
+ia32_package_therm_status	Intel/Intel_06_3F.h	/^    off_t ia32_package_therm_status;$/;"	m	struct:haswell_3f_offsets
+ia32_package_therm_status	Intel/Intel_06_4F.h	/^    off_t ia32_package_therm_status;$/;"	m	struct:broadwell_4f_offsets
+ia32_package_therm_status	Intel/Intel_06_55.h	/^    off_t ia32_package_therm_status;$/;"	m	struct:skylake_55_offsets
+ia32_package_therm_status	Intel/Intel_06_9E.h	/^    off_t ia32_package_therm_status;$/;"	m	struct:kabylake_9e_offsets
+ia32_perf_ctl	Intel/Intel_06_2A.h	/^    off_t ia32_perf_ctl;$/;"	m	struct:sandybridge_2a_offsets
+ia32_perf_ctl	Intel/Intel_06_2D.h	/^    off_t ia32_perf_ctl;$/;"	m	struct:sandybridge_2d_offsets
+ia32_perf_ctl	Intel/Intel_06_3E.h	/^    off_t ia32_perf_ctl;$/;"	m	struct:ivybridge_3e_offsets
+ia32_perf_ctl	Intel/Intel_06_3F.h	/^    off_t ia32_perf_ctl;$/;"	m	struct:haswell_3f_offsets
+ia32_perf_ctl	Intel/Intel_06_4F.h	/^    off_t ia32_perf_ctl;$/;"	m	struct:broadwell_4f_offsets
+ia32_perf_ctl	Intel/Intel_06_55.h	/^    off_t ia32_perf_ctl;$/;"	m	struct:skylake_55_offsets
+ia32_perf_ctl	Intel/Intel_06_9E.h	/^    off_t ia32_perf_ctl;$/;"	m	struct:kabylake_9e_offsets
+ia32_perf_global_ctrl	Intel/Intel_06_2A.h	/^    off_t ia32_perf_global_ctrl;$/;"	m	struct:sandybridge_2a_offsets
+ia32_perf_global_ctrl	Intel/Intel_06_2D.h	/^    off_t ia32_perf_global_ctrl;$/;"	m	struct:sandybridge_2d_offsets
+ia32_perf_global_ctrl	Intel/Intel_06_3E.h	/^    off_t ia32_perf_global_ctrl;$/;"	m	struct:ivybridge_3e_offsets
+ia32_perf_global_ctrl	Intel/Intel_06_3F.h	/^    off_t ia32_perf_global_ctrl;$/;"	m	struct:haswell_3f_offsets
+ia32_perf_global_ctrl	Intel/Intel_06_4F.h	/^    off_t ia32_perf_global_ctrl;$/;"	m	struct:broadwell_4f_offsets
+ia32_perf_global_ctrl	Intel/Intel_06_55.h	/^    off_t ia32_perf_global_ctrl;$/;"	m	struct:skylake_55_offsets
+ia32_perf_global_ctrl	Intel/Intel_06_9E.h	/^    off_t ia32_perf_global_ctrl;$/;"	m	struct:kabylake_9e_offsets
+ia32_perf_global_ovf_ctrl	Intel/Intel_06_2A.h	/^    off_t ia32_perf_global_ovf_ctrl;$/;"	m	struct:sandybridge_2a_offsets
+ia32_perf_global_ovf_ctrl	Intel/Intel_06_2D.h	/^    off_t ia32_perf_global_ovf_ctrl;$/;"	m	struct:sandybridge_2d_offsets
+ia32_perf_global_ovf_ctrl	Intel/Intel_06_3E.h	/^    off_t ia32_perf_global_ovf_ctrl;$/;"	m	struct:ivybridge_3e_offsets
+ia32_perf_global_ovf_ctrl	Intel/Intel_06_3F.h	/^    off_t ia32_perf_global_ovf_ctrl;$/;"	m	struct:haswell_3f_offsets
+ia32_perf_global_ovf_ctrl	Intel/Intel_06_4F.h	/^    off_t ia32_perf_global_ovf_ctrl;$/;"	m	struct:broadwell_4f_offsets
+ia32_perf_global_ovf_ctrl	Intel/Intel_06_55.h	/^    off_t ia32_perf_global_ovf_ctrl;$/;"	m	struct:skylake_55_offsets
+ia32_perf_global_ovf_ctrl	Intel/Intel_06_9E.h	/^    off_t ia32_perf_global_ovf_ctrl;$/;"	m	struct:kabylake_9e_offsets
+ia32_perf_global_status	Intel/Intel_06_2A.h	/^    off_t ia32_perf_global_status;$/;"	m	struct:sandybridge_2a_offsets
+ia32_perf_global_status	Intel/Intel_06_2D.h	/^    off_t ia32_perf_global_status;$/;"	m	struct:sandybridge_2d_offsets
+ia32_perf_global_status	Intel/Intel_06_3E.h	/^    off_t ia32_perf_global_status;$/;"	m	struct:ivybridge_3e_offsets
+ia32_perf_global_status	Intel/Intel_06_3F.h	/^    off_t ia32_perf_global_status;$/;"	m	struct:haswell_3f_offsets
+ia32_perf_global_status	Intel/Intel_06_4F.h	/^    off_t ia32_perf_global_status;$/;"	m	struct:broadwell_4f_offsets
+ia32_perf_global_status	Intel/Intel_06_55.h	/^    off_t ia32_perf_global_status;$/;"	m	struct:skylake_55_offsets
+ia32_perf_global_status	Intel/Intel_06_9E.h	/^    off_t ia32_perf_global_status;$/;"	m	struct:kabylake_9e_offsets
+ia32_perf_status	Intel/Intel_06_2A.h	/^    off_t ia32_perf_status;$/;"	m	struct:sandybridge_2a_offsets
+ia32_perf_status	Intel/Intel_06_2D.h	/^    off_t ia32_perf_status;$/;"	m	struct:sandybridge_2d_offsets
+ia32_perf_status	Intel/Intel_06_3E.h	/^    off_t ia32_perf_status;$/;"	m	struct:ivybridge_3e_offsets
+ia32_perf_status	Intel/Intel_06_3F.h	/^    off_t ia32_perf_status;$/;"	m	struct:haswell_3f_offsets
+ia32_perf_status	Intel/Intel_06_4F.h	/^    off_t ia32_perf_status;$/;"	m	struct:broadwell_4f_offsets
+ia32_perf_status	Intel/Intel_06_55.h	/^    off_t ia32_perf_status;$/;"	m	struct:skylake_55_offsets
+ia32_perf_status	Intel/Intel_06_9E.h	/^    off_t ia32_perf_status;$/;"	m	struct:kabylake_9e_offsets
+ia32_perfevtsel_counters	Intel/Intel_06_2A.h	/^    off_t ia32_perfevtsel_counters[8];$/;"	m	struct:sandybridge_2a_offsets
+ia32_perfevtsel_counters	Intel/Intel_06_2D.h	/^    off_t ia32_perfevtsel_counters[8];$/;"	m	struct:sandybridge_2d_offsets
+ia32_perfevtsel_counters	Intel/Intel_06_3E.h	/^    off_t ia32_perfevtsel_counters[8];$/;"	m	struct:ivybridge_3e_offsets
+ia32_perfevtsel_counters	Intel/Intel_06_3F.h	/^    off_t ia32_perfevtsel_counters[8];$/;"	m	struct:haswell_3f_offsets
+ia32_perfevtsel_counters	Intel/Intel_06_4F.h	/^    off_t ia32_perfevtsel_counters[8];$/;"	m	struct:broadwell_4f_offsets
+ia32_perfevtsel_counters	Intel/Intel_06_55.h	/^    off_t ia32_perfevtsel_counters[8];$/;"	m	struct:skylake_55_offsets
+ia32_perfevtsel_counters	Intel/Intel_06_9E.h	/^    off_t ia32_perfevtsel_counters[8];$/;"	m	struct:kabylake_9e_offsets
+ia32_perfmon_counters	Intel/Intel_06_2A.h	/^    off_t ia32_perfmon_counters[8];$/;"	m	struct:sandybridge_2a_offsets
+ia32_perfmon_counters	Intel/Intel_06_2D.h	/^    off_t ia32_perfmon_counters[8];$/;"	m	struct:sandybridge_2d_offsets
+ia32_perfmon_counters	Intel/Intel_06_3E.h	/^    off_t ia32_perfmon_counters[8];$/;"	m	struct:ivybridge_3e_offsets
+ia32_perfmon_counters	Intel/Intel_06_3F.h	/^    off_t ia32_perfmon_counters[8];$/;"	m	struct:haswell_3f_offsets
+ia32_perfmon_counters	Intel/Intel_06_4F.h	/^    off_t ia32_perfmon_counters[8];$/;"	m	struct:broadwell_4f_offsets
+ia32_perfmon_counters	Intel/Intel_06_55.h	/^    off_t ia32_perfmon_counters[8];$/;"	m	struct:skylake_55_offsets
+ia32_perfmon_counters	Intel/Intel_06_9E.h	/^    off_t ia32_perfmon_counters[8];$/;"	m	struct:kabylake_9e_offsets
+ia32_therm_interrupt	Intel/Intel_06_2A.h	/^    off_t ia32_therm_interrupt;$/;"	m	struct:sandybridge_2a_offsets
+ia32_therm_interrupt	Intel/Intel_06_2D.h	/^    off_t ia32_therm_interrupt;$/;"	m	struct:sandybridge_2d_offsets
+ia32_therm_interrupt	Intel/Intel_06_3E.h	/^    off_t ia32_therm_interrupt;$/;"	m	struct:ivybridge_3e_offsets
+ia32_therm_interrupt	Intel/Intel_06_3F.h	/^    off_t ia32_therm_interrupt;$/;"	m	struct:haswell_3f_offsets
+ia32_therm_interrupt	Intel/Intel_06_4F.h	/^    off_t ia32_therm_interrupt;$/;"	m	struct:broadwell_4f_offsets
+ia32_therm_interrupt	Intel/Intel_06_55.h	/^    off_t ia32_therm_interrupt;$/;"	m	struct:skylake_55_offsets
+ia32_therm_interrupt	Intel/Intel_06_9E.h	/^    off_t ia32_therm_interrupt;$/;"	m	struct:kabylake_9e_offsets
+ia32_therm_status	Intel/Intel_06_2A.h	/^    off_t ia32_therm_status;$/;"	m	struct:sandybridge_2a_offsets
+ia32_therm_status	Intel/Intel_06_2D.h	/^    off_t ia32_therm_status;$/;"	m	struct:sandybridge_2d_offsets
+ia32_therm_status	Intel/Intel_06_3E.h	/^    off_t ia32_therm_status;$/;"	m	struct:ivybridge_3e_offsets
+ia32_therm_status	Intel/Intel_06_3F.h	/^    off_t ia32_therm_status;$/;"	m	struct:haswell_3f_offsets
+ia32_therm_status	Intel/Intel_06_4F.h	/^    off_t ia32_therm_status;$/;"	m	struct:broadwell_4f_offsets
+ia32_therm_status	Intel/Intel_06_55.h	/^    off_t ia32_therm_status;$/;"	m	struct:skylake_55_offsets
+ia32_therm_status	Intel/Intel_06_9E.h	/^    off_t ia32_therm_status;$/;"	m	struct:kabylake_9e_offsets
+ia32_time_stamp_counter	Intel/Intel_06_2A.h	/^    off_t ia32_time_stamp_counter;$/;"	m	struct:sandybridge_2a_offsets
+ia32_time_stamp_counter	Intel/Intel_06_2D.h	/^    off_t ia32_time_stamp_counter;$/;"	m	struct:sandybridge_2d_offsets
+ia32_time_stamp_counter	Intel/Intel_06_3E.h	/^    off_t ia32_time_stamp_counter;$/;"	m	struct:ivybridge_3e_offsets
+ia32_time_stamp_counter	Intel/Intel_06_3F.h	/^    off_t ia32_time_stamp_counter;$/;"	m	struct:haswell_3f_offsets
+ia32_time_stamp_counter	Intel/Intel_06_4F.h	/^    off_t ia32_time_stamp_counter;$/;"	m	struct:broadwell_4f_offsets
+ia32_time_stamp_counter	Intel/Intel_06_55.h	/^    off_t ia32_time_stamp_counter;$/;"	m	struct:skylake_55_offsets
+ia32_time_stamp_counter	Intel/Intel_06_6A.h	/^    off_t ia32_time_stamp_counter;$/;"	m	struct:icelake_6a_offsets
+ia32_time_stamp_counter	Intel/Intel_06_9E.h	/^    off_t ia32_time_stamp_counter;$/;"	m	struct:kabylake_9e_offsets
+ibm_arch_e	config_architecture.h	/^enum ibm_arch_e$/;"	g
+icelake_6a_offsets	Intel/Intel_06_6A.h	/^struct icelake_6a_offsets$/;"	s
+initAPMIDG	Intel_GPU/power_features.c	/^void initAPMIDG(void)$/;"	f
+initNVML	Nvidia_GPU/power_features.c	/^void initNVML(void)$/;"	f
+init_arm	ARM/power_features.c	/^void init_arm(void)$/;"	f
+init_fixed_counter	Intel/counters_features.c	/^void init_fixed_counter(struct fixed_counter *ctr)$/;"	f
+init_msTimer	variorum_timers.c	/^void init_msTimer(struct mstimer *t, int ms_interval)$/;"	f
+init_msr	msr/msr_core.c	/^int init_msr(void)$/;"	f
+init_perfevtsel	Intel/counters_features.c	/^static int init_perfevtsel(struct perfevtsel *evt, off_t *msrs_perfevtsel_ctrs)$/;"	f	file:
+init_pmc	Intel/counters_features.c	/^static int init_pmc(struct pmc *p, off_t *msrs_perfmon_ctrs)$/;"	f	file:
+init_unc_counters	Intel/counters_features.c	/^static void init_unc_counters(struct unc_counters *uc,$/;"	f	file:
+init_unc_perfevtsel	Intel/counters_features.c	/^static void init_unc_perfevtsel(struct unc_perfevtsel *uevt,$/;"	f	file:
+instinctGPU_cap_each_gpu_power_limit	AMD_GPU/instinctGPU.c	/^int instinctGPU_cap_each_gpu_power_limit(unsigned int powerlimit)$/;"	f
+instinctGPU_get_clocks	AMD_GPU/instinctGPU.c	/^int instinctGPU_get_clocks(int verbose)$/;"	f
+instinctGPU_get_gpu_utilization	AMD_GPU/instinctGPU.c	/^int instinctGPU_get_gpu_utilization(int verbose)$/;"	f
+instinctGPU_get_power	AMD_GPU/instinctGPU.c	/^int instinctGPU_get_power(int verbose)$/;"	f
+instinctGPU_get_power_limit	AMD_GPU/instinctGPU.c	/^int instinctGPU_get_power_limit(int verbose)$/;"	f
+instinctGPU_get_thermals	AMD_GPU/instinctGPU.c	/^int instinctGPU_get_thermals(int verbose)$/;"	f
+intel_arch_e	config_architecture.h	/^enum intel_arch_e$/;"	g
+intel_cap_each_gpu_power_limit	Intel_GPU/GPU.c	/^int intel_cap_each_gpu_power_limit(unsigned int powerlimit)$/;"	f
+intel_gpu_get_clocks	Intel_GPU/GPU.c	/^int intel_gpu_get_clocks(int long_ver)$/;"	f
+intel_gpu_get_power	Intel_GPU/GPU.c	/^int intel_gpu_get_power(int long_ver)$/;"	f
+intel_gpu_get_power_limit	Intel_GPU/GPU.c	/^int intel_gpu_get_power_limit(int long_ver)$/;"	f
+intel_gpu_get_thermals	Intel_GPU/GPU.c	/^int intel_gpu_get_thermals(int long_ver)$/;"	f
+interval	variorum_timers.h	/^    unsigned int interval;$/;"	m	struct:mstimer
+isrdmsr	msr/msr_core.h	/^    __u16 isrdmsr;$/;"	m	struct:msr_batch_op
+ivybridge_3e_offsets	Intel/Intel_06_3E.h	/^struct ivybridge_3e_offsets$/;"	s
+job_scheduler_max	IBM/ibm_sensors.h	/^    uint16_t job_scheduler_max;$/;"	m	struct:occ_sensor_record
+job_scheduler_min	IBM/ibm_sensors.h	/^    uint16_t job_scheduler_min;$/;"	m	struct:occ_sensor_record
+joules	AMD/energy_feature.h	/^    double joules;$/;"	m	struct:rapl_units
+joules	Intel/power_features.h	/^    double joules;$/;"	m	struct:rapl_units
+json_get_power_data	ARM/power_features.c	/^int json_get_power_data(json_t *get_power_obj)$/;"	f
+json_get_power_data	Intel/power_features.c	/^void json_get_power_data(json_t *get_power_obj, off_t msr_power_limit,$/;"	f
+json_get_power_domain_info	ARM/power_features.c	/^int json_get_power_domain_info(json_t *get_domain_obj)$/;"	f
+json_get_power_domain_info	Intel/power_features.c	/^void json_get_power_domain_info(json_t *get_domain_obj,$/;"	f
+json_get_power_sensors	IBM/ibm_sensors.c	/^void json_get_power_sensors(int chipid, json_t *get_power_obj, const void *buf)$/;"	f
+kabylake_9e_offsets	Intel/Intel_06_9E.h	/^struct kabylake_9e_offsets$/;"	s
+load_socket_batch	msr/msr_core.c	/^int load_socket_batch(off_t msr, uint64_t **val, int batchnum)$/;"	f
+load_thread_batch	msr/msr_core.c	/^int load_thread_batch(off_t msr, uint64_t **val, int batchnum)$/;"	f
+location	IBM/ibm_sensors.h	/^    uint16_t location;$/;"	m	struct:occ_sensor_name
+m_gpus_per_socket	Intel_GPU/power_features.c	/^static unsigned m_gpus_per_socket;$/;"	v	file:
+m_gpus_per_socket	Nvidia_GPU/power_features.h	/^unsigned m_gpus_per_socket;$/;"	v
+m_hostname	ARM/power_features.c	/^char m_hostname[1024];$/;"	v
+m_hostname	Intel_GPU/power_features.c	/^static char m_hostname[1024];$/;"	v	file:
+m_hostname	Nvidia_GPU/power_features.h	/^char m_hostname[1024];$/;"	v
+m_num_package	ARM/power_features.c	/^unsigned m_num_package;$/;"	v
+m_total_unit_devices	Intel_GPU/power_features.c	/^static unsigned m_total_unit_devices;$/;"	v	file:
+m_total_unit_devices	Nvidia_GPU/power_features.h	/^unsigned m_total_unit_devices;$/;"	v
+m_unit_devices_file_desc	Nvidia_GPU/power_features.h	/^nvmlDevice_t *m_unit_devices_file_desc;$/;"	v
+mperf	Intel/clocks_features.h	/^    uint64_t **mperf;$/;"	m	struct:clocks_data
+msr	msr/msr_core.h	/^    __u32 msr;$/;"	m	struct:msr_batch_op
+msr_batch_array	msr/msr_core.h	/^struct msr_batch_array$/;"	s
+msr_batch_op	msr/msr_core.h	/^struct msr_batch_op$/;"	s
+msr_config_tdp_level1	Intel/Intel_06_3F.h	/^    off_t msr_config_tdp_level1;$/;"	m	struct:haswell_3f_offsets
+msr_config_tdp_level1	Intel/Intel_06_4F.h	/^    off_t msr_config_tdp_level1;$/;"	m	struct:broadwell_4f_offsets
+msr_config_tdp_level1	Intel/Intel_06_55.h	/^    off_t msr_config_tdp_level1;$/;"	m	struct:skylake_55_offsets
+msr_config_tdp_level1	Intel/Intel_06_9E.h	/^    off_t msr_config_tdp_level1;$/;"	m	struct:kabylake_9e_offsets
+msr_config_tdp_level2	Intel/Intel_06_3F.h	/^    off_t msr_config_tdp_level2;$/;"	m	struct:haswell_3f_offsets
+msr_config_tdp_level2	Intel/Intel_06_4F.h	/^    off_t msr_config_tdp_level2;$/;"	m	struct:broadwell_4f_offsets
+msr_config_tdp_level2	Intel/Intel_06_55.h	/^    off_t msr_config_tdp_level2;$/;"	m	struct:skylake_55_offsets
+msr_config_tdp_level2	Intel/Intel_06_9E.h	/^    off_t msr_config_tdp_level2;$/;"	m	struct:kabylake_9e_offsets
+msr_config_tdp_nominal	Intel/Intel_06_3E.h	/^    off_t msr_config_tdp_nominal;$/;"	m	struct:ivybridge_3e_offsets
+msr_config_tdp_nominal	Intel/Intel_06_3F.h	/^    off_t msr_config_tdp_nominal;$/;"	m	struct:haswell_3f_offsets
+msr_config_tdp_nominal	Intel/Intel_06_4F.h	/^    off_t msr_config_tdp_nominal;$/;"	m	struct:broadwell_4f_offsets
+msr_config_tdp_nominal	Intel/Intel_06_55.h	/^    off_t msr_config_tdp_nominal;$/;"	m	struct:skylake_55_offsets
+msr_config_tdp_nominal	Intel/Intel_06_9E.h	/^    off_t msr_config_tdp_nominal;$/;"	m	struct:kabylake_9e_offsets
+msr_core_energy_stat	AMD/energy_feature.h	/^    const off_t msr_core_energy_stat;$/;"	m	struct:EPYC_19h_offsets
+msr_dram_energy_status	Intel/Intel_06_2A.h	/^    off_t msr_dram_energy_status;$/;"	m	struct:sandybridge_2a_offsets
+msr_dram_energy_status	Intel/Intel_06_2D.h	/^    off_t msr_dram_energy_status;$/;"	m	struct:sandybridge_2d_offsets
+msr_dram_energy_status	Intel/Intel_06_3E.h	/^    off_t msr_dram_energy_status;$/;"	m	struct:ivybridge_3e_offsets
+msr_dram_energy_status	Intel/Intel_06_3F.h	/^    off_t msr_dram_energy_status;$/;"	m	struct:haswell_3f_offsets
+msr_dram_energy_status	Intel/Intel_06_4F.h	/^    off_t msr_dram_energy_status;$/;"	m	struct:broadwell_4f_offsets
+msr_dram_energy_status	Intel/Intel_06_55.h	/^    off_t msr_dram_energy_status;$/;"	m	struct:skylake_55_offsets
+msr_dram_energy_status	Intel/Intel_06_6A.h	/^    off_t msr_dram_energy_status;$/;"	m	struct:icelake_6a_offsets
+msr_dram_energy_status	Intel/Intel_06_9E.h	/^    off_t msr_dram_energy_status;$/;"	m	struct:kabylake_9e_offsets
+msr_dram_perf_status	Intel/Intel_06_2A.h	/^    off_t msr_dram_perf_status;$/;"	m	struct:sandybridge_2a_offsets
+msr_dram_perf_status	Intel/Intel_06_2D.h	/^    off_t msr_dram_perf_status;$/;"	m	struct:sandybridge_2d_offsets
+msr_dram_perf_status	Intel/Intel_06_3E.h	/^    off_t msr_dram_perf_status;$/;"	m	struct:ivybridge_3e_offsets
+msr_dram_perf_status	Intel/Intel_06_3F.h	/^    off_t msr_dram_perf_status;$/;"	m	struct:haswell_3f_offsets
+msr_dram_perf_status	Intel/Intel_06_4F.h	/^    off_t msr_dram_perf_status;$/;"	m	struct:broadwell_4f_offsets
+msr_dram_perf_status	Intel/Intel_06_55.h	/^    off_t msr_dram_perf_status;$/;"	m	struct:skylake_55_offsets
+msr_dram_perf_status	Intel/Intel_06_9E.h	/^    off_t msr_dram_perf_status;$/;"	m	struct:kabylake_9e_offsets
+msr_dram_power_info	Intel/Intel_06_2A.h	/^    off_t msr_dram_power_info;$/;"	m	struct:sandybridge_2a_offsets
+msr_dram_power_info	Intel/Intel_06_2D.h	/^    off_t msr_dram_power_info;$/;"	m	struct:sandybridge_2d_offsets
+msr_dram_power_info	Intel/Intel_06_3E.h	/^    off_t msr_dram_power_info;$/;"	m	struct:ivybridge_3e_offsets
+msr_dram_power_info	Intel/Intel_06_3F.h	/^    off_t msr_dram_power_info;$/;"	m	struct:haswell_3f_offsets
+msr_dram_power_info	Intel/Intel_06_4F.h	/^    off_t msr_dram_power_info;$/;"	m	struct:broadwell_4f_offsets
+msr_dram_power_info	Intel/Intel_06_55.h	/^    off_t msr_dram_power_info;$/;"	m	struct:skylake_55_offsets
+msr_dram_power_info	Intel/Intel_06_6A.h	/^    off_t msr_dram_power_info;$/;"	m	struct:icelake_6a_offsets
+msr_dram_power_info	Intel/Intel_06_9E.h	/^    off_t msr_dram_power_info;$/;"	m	struct:kabylake_9e_offsets
+msr_dram_power_info	Intel/power_features.h	/^    uint64_t msr_dram_power_info;$/;"	m	struct:rapl_dram_power_info
+msr_dram_power_limit	Intel/Intel_06_2A.h	/^    off_t msr_dram_power_limit;$/;"	m	struct:sandybridge_2a_offsets
+msr_dram_power_limit	Intel/Intel_06_2D.h	/^    off_t msr_dram_power_limit;$/;"	m	struct:sandybridge_2d_offsets
+msr_dram_power_limit	Intel/Intel_06_3E.h	/^    off_t msr_dram_power_limit;$/;"	m	struct:ivybridge_3e_offsets
+msr_dram_power_limit	Intel/Intel_06_3F.h	/^    off_t msr_dram_power_limit;$/;"	m	struct:haswell_3f_offsets
+msr_dram_power_limit	Intel/Intel_06_4F.h	/^    off_t msr_dram_power_limit;$/;"	m	struct:broadwell_4f_offsets
+msr_dram_power_limit	Intel/Intel_06_55.h	/^    off_t msr_dram_power_limit;$/;"	m	struct:skylake_55_offsets
+msr_dram_power_limit	Intel/Intel_06_6A.h	/^    off_t msr_dram_power_limit;$/;"	m	struct:icelake_6a_offsets
+msr_dram_power_limit	Intel/Intel_06_9E.h	/^    off_t msr_dram_power_limit;$/;"	m	struct:kabylake_9e_offsets
+msr_pkg_energy_stat	AMD/energy_feature.h	/^    const off_t msr_pkg_energy_stat;$/;"	m	struct:EPYC_19h_offsets
+msr_pkg_energy_status	Intel/Intel_06_2A.h	/^    off_t msr_pkg_energy_status;$/;"	m	struct:sandybridge_2a_offsets
+msr_pkg_energy_status	Intel/Intel_06_2D.h	/^    off_t msr_pkg_energy_status;$/;"	m	struct:sandybridge_2d_offsets
+msr_pkg_energy_status	Intel/Intel_06_3E.h	/^    off_t msr_pkg_energy_status;$/;"	m	struct:ivybridge_3e_offsets
+msr_pkg_energy_status	Intel/Intel_06_3F.h	/^    off_t msr_pkg_energy_status;$/;"	m	struct:haswell_3f_offsets
+msr_pkg_energy_status	Intel/Intel_06_4F.h	/^    off_t msr_pkg_energy_status;$/;"	m	struct:broadwell_4f_offsets
+msr_pkg_energy_status	Intel/Intel_06_55.h	/^    off_t msr_pkg_energy_status;$/;"	m	struct:skylake_55_offsets
+msr_pkg_energy_status	Intel/Intel_06_6A.h	/^    off_t msr_pkg_energy_status;$/;"	m	struct:icelake_6a_offsets
+msr_pkg_energy_status	Intel/Intel_06_9E.h	/^    off_t msr_pkg_energy_status;$/;"	m	struct:kabylake_9e_offsets
+msr_pkg_perf_status	Intel/Intel_06_2A.h	/^    off_t msr_pkg_perf_status;$/;"	m	struct:sandybridge_2a_offsets
+msr_pkg_perf_status	Intel/Intel_06_2D.h	/^    off_t msr_pkg_perf_status;$/;"	m	struct:sandybridge_2d_offsets
+msr_pkg_perf_status	Intel/Intel_06_3E.h	/^    off_t msr_pkg_perf_status;$/;"	m	struct:ivybridge_3e_offsets
+msr_pkg_perf_status	Intel/Intel_06_3F.h	/^    off_t msr_pkg_perf_status;$/;"	m	struct:haswell_3f_offsets
+msr_pkg_perf_status	Intel/Intel_06_4F.h	/^    off_t msr_pkg_perf_status;$/;"	m	struct:broadwell_4f_offsets
+msr_pkg_perf_status	Intel/Intel_06_55.h	/^    off_t msr_pkg_perf_status;$/;"	m	struct:skylake_55_offsets
+msr_pkg_perf_status	Intel/Intel_06_9E.h	/^    off_t msr_pkg_perf_status;$/;"	m	struct:kabylake_9e_offsets
+msr_pkg_power_info	Intel/Intel_06_2A.h	/^    off_t msr_pkg_power_info;$/;"	m	struct:sandybridge_2a_offsets
+msr_pkg_power_info	Intel/Intel_06_2D.h	/^    off_t msr_pkg_power_info;$/;"	m	struct:sandybridge_2d_offsets
+msr_pkg_power_info	Intel/Intel_06_3E.h	/^    off_t msr_pkg_power_info;$/;"	m	struct:ivybridge_3e_offsets
+msr_pkg_power_info	Intel/Intel_06_3F.h	/^    off_t msr_pkg_power_info;$/;"	m	struct:haswell_3f_offsets
+msr_pkg_power_info	Intel/Intel_06_4F.h	/^    off_t msr_pkg_power_info;$/;"	m	struct:broadwell_4f_offsets
+msr_pkg_power_info	Intel/Intel_06_55.h	/^    off_t msr_pkg_power_info;$/;"	m	struct:skylake_55_offsets
+msr_pkg_power_info	Intel/Intel_06_6A.h	/^    off_t msr_pkg_power_info;$/;"	m	struct:icelake_6a_offsets
+msr_pkg_power_info	Intel/Intel_06_9E.h	/^    off_t msr_pkg_power_info;$/;"	m	struct:kabylake_9e_offsets
+msr_pkg_power_info	Intel/power_features.h	/^    uint64_t msr_pkg_power_info;$/;"	m	struct:rapl_pkg_power_info
+msr_pkg_power_limit	Intel/Intel_06_2A.h	/^    off_t msr_pkg_power_limit;$/;"	m	struct:sandybridge_2a_offsets
+msr_pkg_power_limit	Intel/Intel_06_2D.h	/^    off_t msr_pkg_power_limit;$/;"	m	struct:sandybridge_2d_offsets
+msr_pkg_power_limit	Intel/Intel_06_3E.h	/^    off_t msr_pkg_power_limit;$/;"	m	struct:ivybridge_3e_offsets
+msr_pkg_power_limit	Intel/Intel_06_3F.h	/^    off_t msr_pkg_power_limit;$/;"	m	struct:haswell_3f_offsets
+msr_pkg_power_limit	Intel/Intel_06_4F.h	/^    off_t msr_pkg_power_limit;$/;"	m	struct:broadwell_4f_offsets
+msr_pkg_power_limit	Intel/Intel_06_55.h	/^    off_t msr_pkg_power_limit;$/;"	m	struct:skylake_55_offsets
+msr_pkg_power_limit	Intel/Intel_06_6A.h	/^    off_t msr_pkg_power_limit;$/;"	m	struct:icelake_6a_offsets
+msr_pkg_power_limit	Intel/Intel_06_9E.h	/^    off_t msr_pkg_power_limit;$/;"	m	struct:kabylake_9e_offsets
+msr_platform_info	Intel/Intel_06_2A.h	/^    off_t msr_platform_info;$/;"	m	struct:sandybridge_2a_offsets
+msr_platform_info	Intel/Intel_06_2D.h	/^    off_t msr_platform_info;$/;"	m	struct:sandybridge_2d_offsets
+msr_platform_info	Intel/Intel_06_3E.h	/^    off_t msr_platform_info;$/;"	m	struct:ivybridge_3e_offsets
+msr_platform_info	Intel/Intel_06_3F.h	/^    off_t msr_platform_info;$/;"	m	struct:haswell_3f_offsets
+msr_platform_info	Intel/Intel_06_4F.h	/^    off_t msr_platform_info;$/;"	m	struct:broadwell_4f_offsets
+msr_platform_info	Intel/Intel_06_55.h	/^    off_t msr_platform_info;$/;"	m	struct:skylake_55_offsets
+msr_platform_info	Intel/Intel_06_6A.h	/^    off_t msr_platform_info;$/;"	m	struct:icelake_6a_offsets
+msr_platform_info	Intel/Intel_06_9E.h	/^    off_t msr_platform_info;$/;"	m	struct:kabylake_9e_offsets
+msr_rapl_power_unit	AMD/energy_feature.h	/^    const off_t msr_rapl_power_unit;$/;"	m	struct:EPYC_19h_offsets
+msr_rapl_power_unit	AMD/energy_feature.h	/^    uint64_t msr_rapl_power_unit;$/;"	m	struct:rapl_units
+msr_rapl_power_unit	Intel/Intel_06_2A.h	/^    off_t msr_rapl_power_unit;$/;"	m	struct:sandybridge_2a_offsets
+msr_rapl_power_unit	Intel/Intel_06_2D.h	/^    off_t msr_rapl_power_unit;$/;"	m	struct:sandybridge_2d_offsets
+msr_rapl_power_unit	Intel/Intel_06_3E.h	/^    off_t msr_rapl_power_unit;$/;"	m	struct:ivybridge_3e_offsets
+msr_rapl_power_unit	Intel/Intel_06_3F.h	/^    off_t msr_rapl_power_unit;$/;"	m	struct:haswell_3f_offsets
+msr_rapl_power_unit	Intel/Intel_06_4F.h	/^    off_t msr_rapl_power_unit;$/;"	m	struct:broadwell_4f_offsets
+msr_rapl_power_unit	Intel/Intel_06_55.h	/^    off_t msr_rapl_power_unit;$/;"	m	struct:skylake_55_offsets
+msr_rapl_power_unit	Intel/Intel_06_6A.h	/^    off_t msr_rapl_power_unit;$/;"	m	struct:icelake_6a_offsets
+msr_rapl_power_unit	Intel/Intel_06_9E.h	/^    off_t msr_rapl_power_unit;$/;"	m	struct:kabylake_9e_offsets
+msr_rapl_power_unit	Intel/power_features.h	/^    uint64_t msr_rapl_power_unit;$/;"	m	struct:rapl_units
+msr_temp_target	Intel/thermal_features.h	/^struct msr_temp_target$/;"	s
+msr_temperature_target	Intel/Intel_06_2A.h	/^    off_t msr_temperature_target;$/;"	m	struct:sandybridge_2a_offsets
+msr_temperature_target	Intel/Intel_06_2D.h	/^    off_t msr_temperature_target;$/;"	m	struct:sandybridge_2d_offsets
+msr_temperature_target	Intel/Intel_06_3E.h	/^    off_t msr_temperature_target;$/;"	m	struct:ivybridge_3e_offsets
+msr_temperature_target	Intel/Intel_06_3F.h	/^    off_t msr_temperature_target;$/;"	m	struct:haswell_3f_offsets
+msr_temperature_target	Intel/Intel_06_4F.h	/^    off_t msr_temperature_target;$/;"	m	struct:broadwell_4f_offsets
+msr_temperature_target	Intel/Intel_06_55.h	/^    off_t msr_temperature_target;$/;"	m	struct:skylake_55_offsets
+msr_temperature_target	Intel/Intel_06_9E.h	/^    off_t msr_temperature_target;$/;"	m	struct:kabylake_9e_offsets
+msr_therm2_ctl	Intel/Intel_06_2A.h	/^    off_t msr_therm2_ctl;$/;"	m	struct:sandybridge_2a_offsets
+msr_therm2_ctl	Intel/Intel_06_2D.h	/^    off_t msr_therm2_ctl;$/;"	m	struct:sandybridge_2d_offsets
+msr_therm2_ctl	Intel/Intel_06_3E.h	/^    off_t msr_therm2_ctl;$/;"	m	struct:ivybridge_3e_offsets
+msr_therm2_ctl	Intel/Intel_06_3F.h	/^    off_t msr_therm2_ctl;$/;"	m	struct:haswell_3f_offsets
+msr_therm2_ctl	Intel/Intel_06_4F.h	/^    off_t msr_therm2_ctl;$/;"	m	struct:broadwell_4f_offsets
+msr_therm2_ctl	Intel/Intel_06_55.h	/^    off_t msr_therm2_ctl;$/;"	m	struct:skylake_55_offsets
+msr_therm2_ctl	Intel/Intel_06_9E.h	/^    off_t msr_therm2_ctl;$/;"	m	struct:kabylake_9e_offsets
+msr_turbo_activation_ratio	Intel/Intel_06_2A.h	/^    off_t msr_turbo_activation_ratio;$/;"	m	struct:sandybridge_2a_offsets
+msr_turbo_activation_ratio	Intel/Intel_06_2D.h	/^    off_t msr_turbo_activation_ratio;$/;"	m	struct:sandybridge_2d_offsets
+msr_turbo_activation_ratio	Intel/Intel_06_3E.h	/^    off_t msr_turbo_activation_ratio;$/;"	m	struct:ivybridge_3e_offsets
+msr_turbo_activation_ratio	Intel/Intel_06_3F.h	/^    off_t msr_turbo_activation_ratio;$/;"	m	struct:haswell_3f_offsets
+msr_turbo_activation_ratio	Intel/Intel_06_4F.h	/^    off_t msr_turbo_activation_ratio;$/;"	m	struct:broadwell_4f_offsets
+msr_turbo_activation_ratio	Intel/Intel_06_55.h	/^    off_t msr_turbo_activation_ratio;$/;"	m	struct:skylake_55_offsets
+msr_turbo_activation_ratio	Intel/Intel_06_9E.h	/^    off_t msr_turbo_activation_ratio;$/;"	m	struct:kabylake_9e_offsets
+msr_turbo_ratio_limit	Intel/Intel_06_2A.h	/^    off_t msr_turbo_ratio_limit;$/;"	m	struct:sandybridge_2a_offsets
+msr_turbo_ratio_limit	Intel/Intel_06_2D.h	/^    off_t msr_turbo_ratio_limit;$/;"	m	struct:sandybridge_2d_offsets
+msr_turbo_ratio_limit	Intel/Intel_06_3E.h	/^    off_t msr_turbo_ratio_limit;$/;"	m	struct:ivybridge_3e_offsets
+msr_turbo_ratio_limit	Intel/Intel_06_3F.h	/^    off_t msr_turbo_ratio_limit;$/;"	m	struct:haswell_3f_offsets
+msr_turbo_ratio_limit	Intel/Intel_06_4F.h	/^    off_t msr_turbo_ratio_limit;$/;"	m	struct:broadwell_4f_offsets
+msr_turbo_ratio_limit	Intel/Intel_06_55.h	/^    off_t msr_turbo_ratio_limit;$/;"	m	struct:skylake_55_offsets
+msr_turbo_ratio_limit	Intel/Intel_06_9E.h	/^    off_t msr_turbo_ratio_limit;$/;"	m	struct:kabylake_9e_offsets
+msr_turbo_ratio_limit1	Intel/Intel_06_2D.h	/^    off_t msr_turbo_ratio_limit1;$/;"	m	struct:sandybridge_2d_offsets
+msr_turbo_ratio_limit1	Intel/Intel_06_3E.h	/^    off_t msr_turbo_ratio_limit1;$/;"	m	struct:ivybridge_3e_offsets
+msr_turbo_ratio_limit1	Intel/Intel_06_3F.h	/^    off_t msr_turbo_ratio_limit1;$/;"	m	struct:haswell_3f_offsets
+msr_turbo_ratio_limit1	Intel/Intel_06_4F.h	/^    off_t msr_turbo_ratio_limit1;$/;"	m	struct:broadwell_4f_offsets
+msr_turbo_ratio_limit_cores	Intel/Intel_06_55.h	/^    off_t msr_turbo_ratio_limit_cores;$/;"	m	struct:skylake_55_offsets
+msr_turbo_ratio_limit_cores	Intel/Intel_06_9E.h	/^    off_t msr_turbo_ratio_limit_cores;$/;"	m	struct:kabylake_9e_offsets
+msrdata	msr/msr_core.h	/^    __u64 msrdata;$/;"	m	struct:msr_batch_op
+msrs	AMD/epyc.c	/^static struct EPYC_19h_offsets msrs =$/;"	v	typeref:struct:EPYC_19h_offsets	file:
+msrs	Intel/Intel_06_2A.c	/^static struct sandybridge_2a_offsets msrs =$/;"	v	typeref:struct:sandybridge_2a_offsets	file:
+msrs	Intel/Intel_06_2D.c	/^static struct sandybridge_2d_offsets msrs =$/;"	v	typeref:struct:sandybridge_2d_offsets	file:
+msrs	Intel/Intel_06_3E.c	/^static struct ivybridge_3e_offsets msrs =$/;"	v	typeref:struct:ivybridge_3e_offsets	file:
+msrs	Intel/Intel_06_3F.c	/^static struct haswell_3f_offsets msrs =$/;"	v	typeref:struct:haswell_3f_offsets	file:
+msrs	Intel/Intel_06_4F.c	/^static struct broadwell_4f_offsets msrs =$/;"	v	typeref:struct:broadwell_4f_offsets	file:
+msrs	Intel/Intel_06_55.c	/^static struct skylake_55_offsets msrs =$/;"	v	typeref:struct:skylake_55_offsets	file:
+msrs	Intel/Intel_06_6A.c	/^static struct icelake_6a_offsets msrs =$/;"	v	typeref:struct:icelake_6a_offsets	file:
+msrs	Intel/Intel_06_9E.c	/^static struct kabylake_9e_offsets msrs =$/;"	v	typeref:struct:kabylake_9e_offsets	file:
+msrs_pcu_pmon_evtsel	Intel/Intel_06_2A.h	/^    off_t msrs_pcu_pmon_evtsel[4];$/;"	m	struct:sandybridge_2a_offsets
+msrs_pcu_pmon_evtsel	Intel/Intel_06_2D.h	/^    off_t msrs_pcu_pmon_evtsel[4];$/;"	m	struct:sandybridge_2d_offsets
+msrs_pcu_pmon_evtsel	Intel/Intel_06_3E.h	/^    off_t msrs_pcu_pmon_evtsel[4];$/;"	m	struct:ivybridge_3e_offsets
+msrs_pcu_pmon_evtsel	Intel/Intel_06_3F.h	/^    off_t msrs_pcu_pmon_evtsel[4];$/;"	m	struct:haswell_3f_offsets
+msrs_pcu_pmon_evtsel	Intel/Intel_06_4F.h	/^    off_t msrs_pcu_pmon_evtsel[4];$/;"	m	struct:broadwell_4f_offsets
+msrs_pcu_pmon_evtsel	Intel/Intel_06_55.h	/^    off_t msrs_pcu_pmon_evtsel[4];$/;"	m	struct:skylake_55_offsets
+msrs_pcu_pmon_evtsel	Intel/Intel_06_9E.h	/^    off_t msrs_pcu_pmon_evtsel[4];$/;"	m	struct:kabylake_9e_offsets
+mstimer	variorum_timers.h	/^struct mstimer$/;"	s
+name	IBM/ibm_sensors.h	/^    char     name[MAX_CHARS_SENSOR_NAME];$/;"	m	struct:occ_sensor_name
+name_length	IBM/ibm_sensors.h	/^    uint8_t  name_length;$/;"	m	struct:occ_sensor_data_header
+names_offset	IBM/ibm_sensors.h	/^    uint32_t names_offset;$/;"	m	struct:occ_sensor_data_header
+names_version	IBM/ibm_sensors.h	/^    uint8_t  names_version;$/;"	m	struct:occ_sensor_data_header
+nextms	variorum_timers.h	/^    unsigned long nextms;$/;"	m	struct:mstimer
+now	Intel/power_features.h	/^    struct timeval now;$/;"	m	struct:rapl_data	typeref:struct:rapl_data::timeval
+now_ms	variorum_timers.c	/^unsigned long now_ms(void)$/;"	f
+nr_sensors	IBM/ibm_sensors.h	/^    uint16_t nr_sensors;$/;"	m	struct:occ_sensor_data_header
+num_cores_per_socket	config_architecture.h	/^    int num_cores_per_socket;$/;"	m	struct:platform
+num_counters	Intel/counters_features.h	/^    int num_counters;$/;"	m	struct:fixed_counter_config
+num_sockets	config_architecture.h	/^    int num_sockets;$/;"	m	struct:platform
+num_threads_per_core	config_architecture.h	/^    int num_threads_per_core;$/;"	m	struct:platform
+numops	msr/msr_core.h	/^    __u32 numops;$/;"	m	struct:msr_batch_array
+nvidia_gpu_arch_e	config_architecture.h	/^enum nvidia_gpu_arch_e$/;"	g
+occ_sensor_counter	IBM/ibm_sensors.h	/^struct occ_sensor_counter$/;"	s
+occ_sensor_data_header	IBM/ibm_sensors.h	/^struct occ_sensor_data_header$/;"	s
+occ_sensor_location	IBM/ibm_sensors.h	/^enum occ_sensor_location$/;"	g
+occ_sensor_name	IBM/ibm_sensors.h	/^struct occ_sensor_name$/;"	s
+occ_sensor_record	IBM/ibm_sensors.h	/^struct occ_sensor_record$/;"	s
+occ_sensor_type	IBM/ibm_sensors.h	/^enum occ_sensor_type$/;"	g
+old_dram_bits	Intel/power_features.h	/^    uint64_t *old_dram_bits;$/;"	m	struct:rapl_data
+old_dram_joules	Intel/power_features.h	/^    double *old_dram_joules;$/;"	m	struct:rapl_data
+old_now	Intel/power_features.h	/^    struct timeval old_now;$/;"	m	struct:rapl_data	typeref:struct:rapl_data::timeval
+old_pkg_bits	Intel/power_features.h	/^    uint64_t *old_pkg_bits;$/;"	m	struct:rapl_data
+old_pkg_joules	Intel/power_features.h	/^    double *old_pkg_joules;$/;"	m	struct:rapl_data
+ops	msr/msr_core.h	/^    struct msr_batch_op *ops;$/;"	m	struct:msr_batch_array	typeref:struct:msr_batch_array::msr_batch_op
+overflow	Intel/counters_features.h	/^    uint64_t *overflow;$/;"	m	struct:fixed_counter
+p9_cap_and_verify_node_power_limit	IBM/Power9.c	/^int p9_cap_and_verify_node_power_limit(int pcap_new)$/;"	f
+p9_cap_gpu_power_ratio	IBM/Power9.c	/^int p9_cap_gpu_power_ratio(int gpu_power_ratio)$/;"	f
+p9_cap_socket_power_limit	IBM/Power9.c	/^int p9_cap_socket_power_limit(int long_ver)$/;"	f
+p9_get_node_power_domain_info_json	IBM/Power9.c	/^int p9_get_node_power_domain_info_json(char **get_domain_obj_str)$/;"	f
+p9_get_node_power_json	IBM/Power9.c	/^int p9_get_node_power_json(char **get_power_obj_str)$/;"	f
+p9_get_power	IBM/Power9.c	/^int p9_get_power(int long_ver)$/;"	f
+p9_get_power_limits	IBM/Power9.c	/^int p9_get_power_limits(int long_ver)$/;"	f
+p9_monitoring	IBM/Power9.c	/^int p9_monitoring(FILE *output)$/;"	f
+pad	IBM/ibm_sensors.h	/^    uint8_t  pad[3];$/;"	m	struct:occ_sensor_data_header
+pad	IBM/ibm_sensors.h	/^    uint8_t  pad[5];$/;"	m	struct:occ_sensor_counter
+pad	IBM/ibm_sensors.h	/^    uint8_t  pad[8];$/;"	m	struct:occ_sensor_name
+pad	IBM/ibm_sensors.h	/^    uint8_t  pad[8];$/;"	m	struct:occ_sensor_record
+perf_ctl	Intel/clocks_features.h	/^    uint64_t **perf_ctl;$/;"	m	struct:perf_data
+perf_data	Intel/clocks_features.h	/^struct perf_data$/;"	s
+perf_evtsel0	Intel/counters_features.h	/^    uint64_t **perf_evtsel0;$/;"	m	struct:perfevtsel
+perf_evtsel1	Intel/counters_features.h	/^    uint64_t **perf_evtsel1;$/;"	m	struct:perfevtsel
+perf_evtsel2	Intel/counters_features.h	/^    uint64_t **perf_evtsel2;$/;"	m	struct:perfevtsel
+perf_evtsel3	Intel/counters_features.h	/^    uint64_t **perf_evtsel3;$/;"	m	struct:perfevtsel
+perf_evtsel4	Intel/counters_features.h	/^    uint64_t **perf_evtsel4;$/;"	m	struct:perfevtsel
+perf_evtsel5	Intel/counters_features.h	/^    uint64_t **perf_evtsel5;$/;"	m	struct:perfevtsel
+perf_evtsel6	Intel/counters_features.h	/^    uint64_t **perf_evtsel6;$/;"	m	struct:perfevtsel
+perf_evtsel7	Intel/counters_features.h	/^    uint64_t **perf_evtsel7;$/;"	m	struct:perfevtsel
+perf_status	Intel/clocks_features.h	/^    uint64_t **perf_status;$/;"	m	struct:perf_data
+perf_storage	Intel/clocks_features.c	/^void perf_storage(struct perf_data **pd, off_t msr_perf_status)$/;"	f
+perf_storage_temp	Intel/clocks_features.c	/^void perf_storage_temp(struct perf_data **pd, off_t msr_perf_ctl,$/;"	f
+perfevtsel	Intel/counters_features.h	/^struct perfevtsel$/;"	s
+perfevtsel_storage	Intel/counters_features.c	/^void perfevtsel_storage(struct perfevtsel **e, off_t *msrs_perfevtsel_ctrs)$/;"	f
+pkg_bits	Intel/power_features.h	/^    uint64_t **pkg_bits;$/;"	m	struct:rapl_data
+pkg_delta_bits	Intel/power_features.h	/^    uint64_t *pkg_delta_bits;$/;"	m	struct:rapl_data
+pkg_delta_joules	Intel/power_features.h	/^    double *pkg_delta_joules;$/;"	m	struct:rapl_data
+pkg_joules	Intel/power_features.h	/^    double *pkg_joules;$/;"	m	struct:rapl_data
+pkg_max_power	Intel/power_features.h	/^    double pkg_max_power;$/;"	m	struct:rapl_pkg_power_info
+pkg_max_window	Intel/power_features.h	/^    double pkg_max_window;$/;"	m	struct:rapl_pkg_power_info
+pkg_min_power	Intel/power_features.h	/^    double pkg_min_power;$/;"	m	struct:rapl_pkg_power_info
+pkg_perf_count	Intel/power_features.h	/^    uint64_t **pkg_perf_count;$/;"	m	struct:rapl_data
+pkg_therm_power	Intel/power_features.h	/^    double pkg_therm_power;$/;"	m	struct:rapl_pkg_power_info
+pkg_therm_stat	Intel/thermal_features.h	/^struct pkg_therm_stat$/;"	s
+pkg_watts	Intel/power_features.h	/^    double *pkg_watts;$/;"	m	struct:rapl_data
+platform	config_architecture.h	/^struct platform$/;"	s
+pmc	Intel/counters_features.h	/^struct pmc$/;"	s
+pmc0	Intel/counters_features.h	/^    uint64_t **pmc0;$/;"	m	struct:pmc
+pmc1	Intel/counters_features.h	/^    uint64_t **pmc1;$/;"	m	struct:pmc
+pmc2	Intel/counters_features.h	/^    uint64_t **pmc2;$/;"	m	struct:pmc
+pmc3	Intel/counters_features.h	/^    uint64_t **pmc3;$/;"	m	struct:pmc
+pmc4	Intel/counters_features.h	/^    uint64_t **pmc4;$/;"	m	struct:pmc
+pmc5	Intel/counters_features.h	/^    uint64_t **pmc5;$/;"	m	struct:pmc
+pmc6	Intel/counters_features.h	/^    uint64_t **pmc6;$/;"	m	struct:pmc
+pmc7	Intel/counters_features.h	/^    uint64_t **pmc7;$/;"	m	struct:pmc
+pmc_storage	Intel/counters_features.c	/^void pmc_storage(struct pmc **p, off_t *msrs_perfmon_ctrs)$/;"	f
+pmi	Intel/counters_features.h	/^    uint64_t *pmi;$/;"	m	struct:fixed_counter
+power_limit_status	Intel/thermal_features.h	/^    int power_limit_status; \/\/Read only$/;"	m	struct:pkg_therm_stat
+power_limit_status	Intel/thermal_features.h	/^    int power_limit_status;$/;"	m	struct:therm_stat
+power_notification_log	Intel/thermal_features.h	/^    int power_notification_log;$/;"	m	struct:pkg_therm_stat
+power_notification_log	Intel/thermal_features.h	/^    int power_notification_log;$/;"	m	struct:therm_stat
+print_all_counter_data	Intel/counters_features.c	/^void print_all_counter_data(FILE *writedest, off_t *msrs_fixed_ctrs,$/;"	f
+print_all_sensors	IBM/ibm_sensors.c	/^void print_all_sensors(int chipid, FILE *output, const void *buf)$/;"	f
+print_all_sensors_header	IBM/ibm_sensors.c	/^void print_all_sensors_header(int chipid, FILE *output, const void *buf)$/;"	f
+print_children	variorum.c	/^static void print_children(hwloc_topology_t topology, hwloc_obj_t obj,$/;"	f	file:
+print_clocks_data	Intel/clocks_features.c	/^int print_clocks_data(FILE *writedest, off_t msr_aperf, off_t msr_mperf,$/;"	f
+print_dram_power_info	Intel/power_features.c	/^void print_dram_power_info(FILE *writedest, off_t msr, int socket)$/;"	f
+print_dram_power_limit	Intel/power_features.c	/^void print_dram_power_limit(FILE *writedest, off_t msr_power_limit,$/;"	f
+print_energy_data	AMD/energy_feature.c	/^int print_energy_data(FILE *writedest, off_t msr_rapl_unit,$/;"	f
+print_fixed_counter_data	Intel/counters_features.c	/^void print_fixed_counter_data(FILE *writedest, off_t *msrs_fixed_ctrs)$/;"	f
+print_package_power_info	Intel/power_features.c	/^void print_package_power_info(FILE *writedest, off_t msr, int socket)$/;"	f
+print_package_power_limit	Intel/power_features.c	/^void print_package_power_limit(FILE *writedest, off_t msr_power_limit,$/;"	f
+print_perfmon_counter_data	Intel/counters_features.c	/^void print_perfmon_counter_data(FILE *writedest, off_t *msrs_perfevtsel_ctrs,$/;"	f
+print_power_data	Intel/power_features.c	/^void print_power_data(FILE *writedest, off_t msr_rapl_unit,$/;"	f
+print_power_sensors	IBM/ibm_sensors.c	/^void print_power_sensors(int chipid, int long_ver, FILE *output,$/;"	f
+print_rapl_power_unit	Intel/power_features.c	/^void print_rapl_power_unit(FILE *writedest, off_t msr)$/;"	f
+print_therm_temp_reading	Intel/thermal_features.c	/^int print_therm_temp_reading(FILE *writedest, off_t msr_therm_stat,$/;"	f
+print_turbo_status	Intel/misc_features.c	/^int print_turbo_status(FILE *writedest, off_t msr_misc_enable,$/;"	f
+print_unc_counter_data	Intel/counters_features.c	/^void print_unc_counter_data(FILE *writedest, off_t *msrs_pcu_pmon_evtsel,$/;"	f
+print_verbose_all_counter_data	Intel/counters_features.c	/^void print_verbose_all_counter_data(FILE *writedest, off_t *msrs_fixed_ctrs,$/;"	f
+print_verbose_clocks_data	Intel/clocks_features.c	/^int print_verbose_clocks_data(FILE *writedest, off_t msr_aperf, off_t msr_mperf,$/;"	f
+print_verbose_dram_power_info	Intel/power_features.c	/^void print_verbose_dram_power_info(FILE *writedest, off_t msr, int socket)$/;"	f
+print_verbose_dram_power_limit	Intel/power_features.c	/^void print_verbose_dram_power_limit(FILE *writedest, off_t msr_power_limit,$/;"	f
+print_verbose_fixed_counter_data	Intel/counters_features.c	/^void print_verbose_fixed_counter_data(FILE *writedest, off_t *msrs_fixed_ctrs)$/;"	f
+print_verbose_package_power_info	Intel/power_features.c	/^void print_verbose_package_power_info(FILE *writedest, off_t msr, int socket)$/;"	f
+print_verbose_package_power_limit	Intel/power_features.c	/^void print_verbose_package_power_limit(FILE *writedest, off_t msr_power_limit,$/;"	f
+print_verbose_perfmon_counter_data	Intel/counters_features.c	/^void print_verbose_perfmon_counter_data(FILE *writedest,$/;"	f
+print_verbose_power_data	Intel/power_features.c	/^void print_verbose_power_data(FILE *writedest, off_t msr_rapl_unit,$/;"	f
+print_verbose_rapl_power_unit	Intel/power_features.c	/^void print_verbose_rapl_power_unit(FILE *writedest, off_t msr)$/;"	f
+print_verbose_therm_temp_reading	Intel/thermal_features.c	/^int print_verbose_therm_temp_reading(FILE *writedest, off_t msr_therm_stat,$/;"	f
+print_verbose_unc_counter_data	Intel/counters_features.c	/^void print_verbose_unc_counter_data(FILE *writedest,$/;"	f
+profiler_max	IBM/ibm_sensors.h	/^    uint16_t profiler_max;$/;"	m	struct:occ_sensor_record
+profiler_min	IBM/ibm_sensors.h	/^    uint16_t profiler_min;$/;"	m	struct:occ_sensor_record
+rapl_data	AMD/energy_feature.h	/^struct rapl_data$/;"	s
+rapl_data	Intel/power_features.h	/^struct rapl_data$/;"	s
+rapl_dram_power_info	Intel/power_features.h	/^struct rapl_dram_power_info$/;"	s
+rapl_limit	Intel/power_features.h	/^struct rapl_limit$/;"	s
+rapl_pkg_power_info	Intel/power_features.h	/^struct rapl_pkg_power_info$/;"	s
+rapl_storage	AMD/energy_feature.c	/^static int rapl_storage(struct rapl_data **data)$/;"	f	file:
+rapl_storage	Intel/power_features.c	/^int rapl_storage(struct rapl_data **data)$/;"	f
+rapl_units	AMD/energy_feature.h	/^struct rapl_units$/;"	s
+rapl_units	Intel/power_features.h	/^struct rapl_units$/;"	s
+raw	Intel/thermal_features.h	/^    uint64_t raw;$/;"	m	struct:msr_temp_target
+raw	Intel/thermal_features.h	/^    uint64_t raw;$/;"	m	struct:pkg_therm_stat
+raw	Intel/thermal_features.h	/^    uint64_t raw;$/;"	m	struct:therm_stat
+read_array_ui64	ARM/power_features.c	/^int read_array_ui64(const int fd, uint64_t **array)$/;"	f
+read_batch	msr/msr_core.c	/^int read_batch(const int batchnum)$/;"	f
+read_counter	IBM/ibm_sensors.c	/^unsigned long read_counter(const struct occ_sensor_data_header *hb,$/;"	f
+read_file_ui64	ARM/power_features.c	/^int read_file_ui64(const int file, uint64_t *val)$/;"	f
+read_msr_by_coord	msr/msr_core.c	/^int read_msr_by_coord(unsigned socket, unsigned core, unsigned thread,$/;"	f
+read_msr_by_idx	msr/msr_core.c	/^int read_msr_by_idx(int dev_idx, off_t msr, uint64_t *val)$/;"	f
+read_rapl_data	AMD/energy_feature.c	/^static int read_rapl_data(off_t msr_core_energy_status)$/;"	f	file:
+read_rapl_data	Intel/power_features.c	/^int read_rapl_data(off_t msr_rapl_unit, off_t msr_pkg_energy_status,$/;"	f
+read_sensor	IBM/ibm_sensors.c	/^unsigned long read_sensor(const struct occ_sensor_data_header *hb,$/;"	f
+reading_offset	IBM/ibm_sensors.h	/^    uint32_t reading_offset;$/;"	m	struct:occ_sensor_name
+reading_ping_offset	IBM/ibm_sensors.h	/^    uint32_t reading_ping_offset;$/;"	m	struct:occ_sensor_data_header
+reading_pong_offset	IBM/ibm_sensors.h	/^    uint32_t reading_pong_offset;$/;"	m	struct:occ_sensor_data_header
+reading_version	IBM/ibm_sensors.h	/^    uint8_t  reading_version;$/;"	m	struct:occ_sensor_data_header
+readout	Intel/thermal_features.h	/^    int readout;$/;"	m	struct:pkg_therm_stat
+readout	Intel/thermal_features.h	/^    int readout;$/;"	m	struct:therm_stat
+readout_valid	Intel/thermal_features.h	/^    int readout_valid;$/;"	m	struct:therm_stat
+reserved	IBM/ibm_sensors.h	/^    uint16_t reserved;$/;"	m	struct:occ_sensor_data_header
+resolution_deg_celsius	Intel/thermal_features.h	/^    int resolution_deg_celsius;$/;"	m	struct:therm_stat
+ring_level	Intel/counters_features.h	/^    uint64_t *ring_level;$/;"	m	struct:fixed_counter
+sample	IBM/ibm_sensors.h	/^    uint16_t sample;$/;"	m	struct:occ_sensor_record
+sample	IBM/ibm_sensors.h	/^    uint8_t  sample;$/;"	m	struct:occ_sensor_counter
+sample_max	IBM/ibm_sensors.h	/^    uint16_t sample_max;$/;"	m	struct:occ_sensor_record
+sample_min	IBM/ibm_sensors.h	/^    uint16_t sample_min;$/;"	m	struct:occ_sensor_record
+sandybridge_2a_offsets	Intel/Intel_06_2A.h	/^struct sandybridge_2a_offsets$/;"	s
+sandybridge_2d_offsets	Intel/Intel_06_2D.h	/^struct sandybridge_2d_offsets$/;"	s
+scale_factor	IBM/ibm_sensors.h	/^    uint32_t scale_factor;$/;"	m	struct:occ_sensor_name
+seconds	Intel/power_features.h	/^    double seconds;$/;"	m	struct:rapl_limit
+seconds	Intel/power_features.h	/^    double seconds;$/;"	m	struct:rapl_units
+sensor_attr	IBM/ibm_sensors.h	/^enum sensor_attr$/;"	g
+sensor_data	IBM/ibm_sensors.h	/^    uint8_t  sensor_data;$/;"	m	struct:occ_sensor_name
+sensor_struct_type	IBM/ibm_sensors.h	/^enum sensor_struct_type$/;"	g
+set_all_pmc_ctrl	Intel/counters_features.c	/^void set_all_pmc_ctrl(uint64_t cmask, uint64_t flags, uint64_t umask,$/;"	f
+set_amd_func_ptrs	AMD/config_amd.c	/^int set_amd_func_ptrs(int idx)$/;"	f
+set_amd_gpu_func_ptrs	AMD_GPU/config_amd_gpu.c	/^int set_amd_gpu_func_ptrs(int idx)$/;"	f
+set_arm_func_ptrs	ARM/config_arm.c	/^int set_arm_func_ptrs(int idx)$/;"	f
+set_fixed_counter_ctrl	Intel/counters_features.c	/^void set_fixed_counter_ctrl(struct fixed_counter *ctr0,$/;"	f
+set_ibm_func_ptrs	IBM/config_ibm.c	/^int set_ibm_func_ptrs(int idx)$/;"	f
+set_intel_func_ptrs	Intel/config_intel.c	/^int set_intel_func_ptrs(int idx)$/;"	f
+set_intel_gpu_func_ptrs	Intel_GPU/config_intel_gpu.c	/^int set_intel_gpu_func_ptrs(int idx)$/;"	f
+set_nvidia_func_ptrs	Nvidia_GPU/config_nvidia.c	/^int set_nvidia_func_ptrs(int idx)$/;"	f
+set_pmc_ctrl_flags	Intel/counters_features.c	/^void set_pmc_ctrl_flags(uint64_t cmask, uint64_t flags, uint64_t umask,$/;"	f
+set_turbo_off	Intel/misc_features.c	/^int set_turbo_off(off_t msr_misc_enable, unsigned int turbo_mode_disable_bit)$/;"	f
+set_turbo_on	Intel/misc_features.c	/^int set_turbo_on(off_t msr_misc_enable, unsigned int turbo_mode_disable_bit)$/;"	f
+shutdownAPMIDG	Intel_GPU/power_features.c	/^void shutdownAPMIDG(void)$/;"	f
+shutdownNVML	Nvidia_GPU/power_features.c	/^void shutdownNVML(void)$/;"	f
+shutdown_arm	ARM/power_features.c	/^void shutdown_arm(void)$/;"	f
+skylake_55_offsets	Intel/Intel_06_55.h	/^struct skylake_55_offsets$/;"	s
+sleep_ms	variorum_timers.c	/^void sleep_ms(long ms)$/;"	f
+sockets_assert	msr/msr_core.c	/^int sockets_assert(const unsigned *socket)$/;"	f
+startms	variorum_timers.h	/^    unsigned long startms;$/;"	m	struct:mstimer
+stat_module	msr/msr_core.c	/^int stat_module(char *filename, int *kerneltype, int *dev_idx)$/;"	f
+status	Intel/thermal_features.h	/^    int status;$/;"	m	struct:pkg_therm_stat
+status	Intel/thermal_features.h	/^    int status;$/;"	m	struct:therm_stat
+status_log	Intel/thermal_features.h	/^    int status_log;$/;"	m	struct:pkg_therm_stat
+status_log	Intel/thermal_features.h	/^    int status_log;$/;"	m	struct:therm_stat
+step	variorum_timers.h	/^    unsigned int step;$/;"	m	struct:mstimer
+structure_type	IBM/ibm_sensors.h	/^    uint8_t  structure_type;$/;"	m	struct:occ_sensor_name
+supported_platforms_e	config_architecture.h	/^enum supported_platforms_e$/;"	g
+temp_target	Intel/thermal_features.h	/^    uint64_t temp_target;$/;"	m	struct:msr_temp_target
+therm_stat	Intel/thermal_features.h	/^struct therm_stat$/;"	s
+therm_thresh1_log	Intel/thermal_features.h	/^    int therm_thresh1_log;$/;"	m	struct:pkg_therm_stat
+therm_thresh1_log	Intel/thermal_features.h	/^    int therm_thresh1_log;$/;"	m	struct:therm_stat
+therm_thresh1_status	Intel/thermal_features.h	/^    int therm_thresh1_status;$/;"	m	struct:pkg_therm_stat
+therm_thresh1_status	Intel/thermal_features.h	/^    int therm_thresh1_status;$/;"	m	struct:therm_stat
+therm_thresh2_log	Intel/thermal_features.h	/^    int therm_thresh2_log;$/;"	m	struct:pkg_therm_stat
+therm_thresh2_log	Intel/thermal_features.h	/^    int therm_thresh2_log;$/;"	m	struct:therm_stat
+therm_thresh2_status	Intel/thermal_features.h	/^    int therm_thresh2_status;$/;"	m	struct:pkg_therm_stat
+therm_thresh2_status	Intel/thermal_features.h	/^    int therm_thresh2_status;$/;"	m	struct:therm_stat
+threads_assert	msr/msr_core.c	/^int threads_assert(const unsigned *thread)$/;"	f
+timer_sleep	variorum_timers.c	/^int timer_sleep(struct mstimer *t)$/;"	f
+timestamp	IBM/ibm_sensors.h	/^    uint64_t timestamp;$/;"	m	struct:occ_sensor_counter
+timestamp	IBM/ibm_sensors.h	/^    uint64_t timestamp;$/;"	m	struct:occ_sensor_record
+topology	variorum_topology.c	/^hwloc_topology_t topology;$/;"	v
+total_cores	config_architecture.h	/^    int total_cores;$/;"	m	struct:platform
+total_threads	config_architecture.h	/^    int total_threads;$/;"	m	struct:platform
+translate	Intel/power_features.c	/^static int translate(const unsigned socket, uint64_t *bits, double *units,$/;"	f	file:
+translate_bits	Intel/power_features.h	/^    int translate_bits;$/;"	m	struct:rapl_limit
+tsc	Intel/clocks_features.h	/^    uint64_t **tsc;$/;"	m	struct:clocks_data
+type	IBM/ibm_sensors.h	/^    uint16_t type;$/;"	m	struct:occ_sensor_name
+unc_counters	Intel/counters_features.h	/^struct unc_counters$/;"	s
+unc_counters_storage	Intel/counters_features.c	/^void unc_counters_storage(struct unc_counters **uc, off_t *msrs_pcu_pmon_ctrs)$/;"	f
+unc_perfevtsel	Intel/counters_features.h	/^struct unc_perfevtsel$/;"	s
+unc_perfevtsel_storage	Intel/counters_features.c	/^void unc_perfevtsel_storage(struct unc_perfevtsel **uevt,$/;"	f
+units	IBM/ibm_sensors.h	/^    char     units[MAX_CHARS_SENSOR_UNIT];$/;"	m	struct:occ_sensor_name
+update_tag	IBM/ibm_sensors.h	/^    uint32_t update_tag;$/;"	m	struct:occ_sensor_record
+valid	IBM/ibm_sensors.h	/^    uint8_t  valid;$/;"	m	struct:occ_sensor_data_header
+value	Intel/counters_features.h	/^    uint64_t **value;$/;"	m	struct:fixed_counter
+variorum	variorum.f90	/^module variorum$/;"	m
+variorum_batch_op_type_e	msr/msr_core.h	/^enum variorum_batch_op_type_e$/;"	g
+variorum_cap_best_effort_node_power_limit	config_architecture.h	/^    int (*variorum_cap_best_effort_node_power_limit)(int node_power_limit);$/;"	m	struct:platform
+variorum_cap_best_effort_node_power_limit	variorum.c	/^int variorum_cap_best_effort_node_power_limit(int node_power_limit)$/;"	f
+variorum_cap_each_core_frequency_limit	config_architecture.h	/^    int (*variorum_cap_each_core_frequency_limit)(int core_freq_mhz);$/;"	m	struct:platform
+variorum_cap_each_core_frequency_limit	variorum.c	/^int variorum_cap_each_core_frequency_limit(int core_freq_mhz)$/;"	f
+variorum_cap_each_gpu_power_limit	config_architecture.h	/^    int (*variorum_cap_each_gpu_power_limit)(unsigned int gpu_power_limit);$/;"	m	struct:platform
+variorum_cap_each_gpu_power_limit	variorum.c	/^int variorum_cap_each_gpu_power_limit(int gpu_power_limit)$/;"	f
+variorum_cap_each_socket_power_limit	config_architecture.h	/^    int (*variorum_cap_each_socket_power_limit)(int socket_power_limit);$/;"	m	struct:platform
+variorum_cap_each_socket_power_limit	variorum.c	/^int variorum_cap_each_socket_power_limit(int socket_power_limit)$/;"	f
+variorum_cap_gpu_power_ratio	config_architecture.h	/^    int (*variorum_cap_gpu_power_ratio)(int gpu_power_ratio);$/;"	m	struct:platform
+variorum_cap_gpu_power_ratio	variorum.c	/^int variorum_cap_gpu_power_ratio(int gpu_power_ratio)$/;"	f
+variorum_cap_socket_frequency_limit	config_architecture.h	/^    int (*variorum_cap_socket_frequency_limit)(int chipid, int socket_frequency);$/;"	m	struct:platform
+variorum_cap_socket_frequency_limit	variorum.c	/^int variorum_cap_socket_frequency_limit(int socketid, int socket_freq_mhz)$/;"	f
+variorum_data_type_e	msr/msr_core.h	/^enum variorum_data_type_e$/;"	g
+variorum_detect_arch	config_architecture.c	/^int variorum_detect_arch(void)$/;"	f
+variorum_disable_turbo	config_architecture.h	/^    int (*variorum_disable_turbo)(void);$/;"	m	struct:platform
+variorum_disable_turbo	variorum.c	/^int variorum_disable_turbo(void)$/;"	f
+variorum_enable_turbo	config_architecture.h	/^    int (*variorum_enable_turbo)(void);$/;"	m	struct:platform
+variorum_enable_turbo	variorum.c	/^int variorum_enable_turbo(void)$/;"	f
+variorum_enter	config_architecture.c	/^int variorum_enter(const char *filename, const char *func_name, int line_num)$/;"	f
+variorum_error_e	variorum_error.h	/^enum variorum_error_e$/;"	g
+variorum_error_handler	variorum_error.c	/^void variorum_error_handler(const char *desc, enum variorum_error_e err,$/;"	f
+variorum_error_message	variorum_error.c	/^void variorum_error_message(enum variorum_error_e err, char *msg, size_t size)$/;"	f
+variorum_exit	config_architecture.c	/^int variorum_exit(const char *filename, const char *func_name, int line_num)$/;"	f
+variorum_get_current_version	variorum.c	/^char *variorum_get_current_version()$/;"	f
+variorum_get_node_power_domain_info_json	config_architecture.h	/^    int (*variorum_get_node_power_domain_info_json)(char **get_domain_obj_str);$/;"	m	struct:platform
+variorum_get_node_power_domain_info_json	variorum.c	/^int variorum_get_node_power_domain_info_json(char **get_domain_obj_str)$/;"	f
+variorum_get_node_power_json	config_architecture.h	/^    int (*variorum_get_node_power_json)(char **get_power_obj_str);$/;"	m	struct:platform
+variorum_get_node_power_json	variorum.c	/^int variorum_get_node_power_json(char **get_power_obj_str)$/;"	f
+variorum_get_num_cores	variorum_topology.c	/^int variorum_get_num_cores(void)$/;"	f
+variorum_get_num_sockets	variorum_topology.c	/^int variorum_get_num_sockets(void)$/;"	f
+variorum_get_num_threads	variorum_topology.c	/^int variorum_get_num_threads(void)$/;"	f
+variorum_get_topology	config_architecture.c	/^void variorum_get_topology(unsigned *nsockets, unsigned *ncores,$/;"	f
+variorum_init_func_ptrs	config_architecture.c	/^void variorum_init_func_ptrs()$/;"	f
+variorum_init_topology	variorum_topology.c	/^int variorum_init_topology(void)$/;"	f
+variorum_monitoring	config_architecture.h	/^    int (*variorum_monitoring)(FILE *output);$/;"	m	struct:platform
+variorum_monitoring	variorum.c	/^int variorum_monitoring(FILE *output)$/;"	f
+variorum_poll_power	config_architecture.h	/^    int (*variorum_poll_power)(FILE *output);$/;"	m	struct:platform
+variorum_poll_power	variorum.c	/^int variorum_poll_power(FILE *output)$/;"	f
+variorum_print_available_frequencies	config_architecture.h	/^    int (*variorum_print_available_frequencies)(void);$/;"	m	struct:platform
+variorum_print_available_frequencies	variorum.c	/^int variorum_print_available_frequencies(void)$/;"	f
+variorum_print_counters	config_architecture.h	/^    int (*variorum_print_counters)(int long_ver);$/;"	m	struct:platform
+variorum_print_counters	variorum.c	/^int variorum_print_counters(void)$/;"	f
+variorum_print_energy	config_architecture.h	/^    int (*variorum_print_energy)(void);$/;"	m	struct:platform
+variorum_print_energy	variorum.c	/^int variorum_print_energy(void)$/;"	f
+variorum_print_features	config_architecture.h	/^    int (*variorum_print_features)(void);$/;"	m	struct:platform
+variorum_print_features	variorum.c	/^int variorum_print_features(void)$/;"	f
+variorum_print_frequency	config_architecture.h	/^    int (*variorum_print_frequency)(int long_ver);$/;"	m	struct:platform
+variorum_print_frequency	variorum.c	/^int variorum_print_frequency(void)$/;"	f
+variorum_print_gpu_utilization	config_architecture.h	/^    int (*variorum_print_gpu_utilization)(int long_ver);$/;"	m	struct:platform
+variorum_print_gpu_utilization	variorum.c	/^int variorum_print_gpu_utilization(void)$/;"	f
+variorum_print_hyperthreading	variorum.c	/^int variorum_print_hyperthreading(void)$/;"	f
+variorum_print_power	config_architecture.h	/^    int (*variorum_print_power)(int long_ver);$/;"	m	struct:platform
+variorum_print_power	variorum.c	/^int variorum_print_power(void)$/;"	f
+variorum_print_power_limit	config_architecture.h	/^    int (*variorum_print_power_limit)(int long_ver);$/;"	m	struct:platform
+variorum_print_power_limit	variorum.c	/^int variorum_print_power_limit(void)$/;"	f
+variorum_print_thermals	config_architecture.h	/^    int (*variorum_print_thermals)(int long_ver);$/;"	m	struct:platform
+variorum_print_thermals	variorum.c	/^int variorum_print_thermals(void)$/;"	f
+variorum_print_topology	variorum.c	/^void variorum_print_topology(void)$/;"	f
+variorum_print_turbo	config_architecture.h	/^    int (*variorum_print_turbo)(void);$/;"	m	struct:platform
+variorum_print_turbo	variorum.c	/^int variorum_print_turbo(void)$/;"	f
+variorum_print_verbose_counters	variorum.c	/^int variorum_print_verbose_counters(void)$/;"	f
+variorum_print_verbose_frequency	variorum.c	/^int variorum_print_verbose_frequency(void)$/;"	f
+variorum_print_verbose_gpu_utilization	variorum.c	/^int variorum_print_verbose_gpu_utilization(void)$/;"	f
+variorum_print_verbose_power	variorum.c	/^int variorum_print_verbose_power(void)$/;"	f
+variorum_print_verbose_power_limit	variorum.c	/^int variorum_print_verbose_power_limit(void)$/;"	f
+variorum_print_verbose_thermals	variorum.c	/^int variorum_print_verbose_thermals(void)$/;"	f
+variorum_set_func_ptrs	config_architecture.c	/^int variorum_set_func_ptrs()$/;"	f
+variorum_tester	variorum.c	/^int variorum_tester(void)$/;"	f
+variorum_unit_conversions_e	Intel/power_features.h	/^enum variorum_unit_conversions_e$/;"	g
+version	IBM/ibm_sensors.h	/^    uint8_t  version;$/;"	m	struct:occ_sensor_data_header
+volta_cap_each_gpu_power_limit	Nvidia_GPU/Volta.c	/^int volta_cap_each_gpu_power_limit(unsigned int powerlimit)$/;"	f
+volta_get_clocks	Nvidia_GPU/Volta.c	/^int volta_get_clocks(int long_ver)$/;"	f
+volta_get_gpu_utilization	Nvidia_GPU/Volta.c	/^int volta_get_gpu_utilization(int long_ver)$/;"	f
+volta_get_power	Nvidia_GPU/Volta.c	/^int volta_get_power(int long_ver)$/;"	f
+volta_get_power_limits	Nvidia_GPU/Volta.c	/^int volta_get_power_limits(int long_ver)$/;"	f
+volta_get_thermals	Nvidia_GPU/Volta.c	/^int volta_get_thermals(int long_ver)$/;"	f
+watts	Intel/power_features.h	/^    double watts;$/;"	m	struct:rapl_limit
+watts	Intel/power_features.h	/^    double watts;$/;"	m	struct:rapl_units
+width	Intel/counters_features.h	/^    int width;$/;"	m	struct:fixed_counter_config
+wmask	msr/msr_core.h	/^    __u64 wmask;$/;"	m	struct:msr_batch_op
+write_batch	msr/msr_core.c	/^int write_batch(const int batchnum)$/;"	f
+write_file_ui64	ARM/power_features.c	/^int write_file_ui64(const int file, uint64_t val)$/;"	f
+write_msr_by_coord	msr/msr_core.c	/^int write_msr_by_coord(unsigned socket, unsigned core, unsigned thread,$/;"	f
+write_msr_by_idx	msr/msr_core.c	/^int write_msr_by_idx(int dev_idx, off_t msr, uint64_t val)$/;"	f

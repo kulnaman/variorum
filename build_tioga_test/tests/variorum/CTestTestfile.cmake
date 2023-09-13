@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: /g/g92/namankul/variorum/src/tests/variorum
+# Build directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(t_variorum_cap_best_effort_node_power_limit "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_cap_best_effort_node_power_limit")
+set_tests_properties(t_variorum_cap_best_effort_node_power_limit PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_cap_gpu_power_ratio "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_cap_gpu_power_ratio")
+set_tests_properties(t_variorum_cap_gpu_power_ratio PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_cap_socket_frequency_limit "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_cap_socket_frequency_limit")
+set_tests_properties(t_variorum_cap_socket_frequency_limit PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_cap_socket_power_limit "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_cap_socket_power_limit")
+set_tests_properties(t_variorum_cap_socket_power_limit PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_monitoring "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_monitoring")
+set_tests_properties(t_variorum_monitoring PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_poll_data "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_poll_data")
+set_tests_properties(t_variorum_poll_data PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_query_frequency "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_frequency")
+set_tests_properties(t_variorum_query_frequency PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_query_counters "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_counters")
+set_tests_properties(t_variorum_query_counters PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_query_gpu_utilization "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_gpu_utilization")
+set_tests_properties(t_variorum_query_gpu_utilization PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_query_hyperthreading "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_hyperthreading")
+set_tests_properties(t_variorum_query_hyperthreading PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_query_power "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_power")
+set_tests_properties(t_variorum_query_power PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_query_power_limit "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_power_limit")
+set_tests_properties(t_variorum_query_power_limit PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_query_thermals "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_thermals")
+set_tests_properties(t_variorum_query_thermals PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_query_turbo "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_turbo")
+set_tests_properties(t_variorum_query_turbo PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")
+add_test(t_variorum_toggle_turbo "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_toggle_turbo")
+set_tests_properties(t_variorum_toggle_turbo PROPERTIES  _BACKTRACE_TRIPLES "/g/g92/namankul/variorum/src/CMake/SetupTests.cmake;24;add_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;28;add_unit_test;/g/g92/namankul/variorum/src/tests/variorum/CMakeLists.txt;0;")

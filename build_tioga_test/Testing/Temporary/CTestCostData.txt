@@ -1,0 +1,19 @@
+t_variorum_cap_best_effort_node_power_limit 0 0
+t_variorum_cap_gpu_power_ratio 2 0.0184802
+t_variorum_cap_socket_frequency_limit 0 0
+t_variorum_cap_socket_power_limit 0 0
+t_variorum_monitoring 2 0.0118677
+t_variorum_poll_data 2 0.0136022
+t_variorum_query_frequency 2 0.0589145
+t_variorum_query_counters 2 0.0147409
+t_variorum_query_gpu_utilization 2 0.0202703
+t_variorum_query_hyperthreading 2 0.012713
+t_variorum_query_power 2 0.0191931
+t_variorum_query_power_limit 2 0.025758
+t_variorum_query_thermals 2 0.0197213
+t_variorum_query_turbo 2 0.0117399
+t_variorum_toggle_turbo 2 0.012493
+---
+t_variorum_cap_best_effort_node_power_limit
+t_variorum_cap_socket_frequency_limit
+t_variorum_cap_socket_power_limit

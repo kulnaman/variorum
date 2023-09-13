@@ -76,6 +76,10 @@ int main(int argc, char **argv)
                         "    -p path_to_trace\n"
                         "        Path to store application trace.\n"
                         "\n"
+                        "\n"
+                        "    -f Filename\n"
+                        "        Filename to use. Automatically append hostname in the filename.\n"
+                        "\n"
                         "    -i ms_interval"
                         "        Sampling interval in milliseconds (default = 50ms).\n"
                         "\n"
@@ -95,6 +99,7 @@ int main(int argc, char **argv)
     char **arg = NULL;
     int set_app = 0;
     char *logpath = NULL;
+    char *filename = NULL;
     // Default struct with sampling interval of 50ms and verbosity of 0.
     struct thread_args th_args;
     th_args.sample_interval = FASTEST_SAMPLE_INTERVAL_MS;
@@ -114,6 +119,9 @@ int main(int argc, char **argv)
                 break;
             case 'p':
                 logpath = strdup(optarg);
+                break;
+            case 'f':
+                filename= strdup(optarg);
                 break;
             case 'i':
                 th_args.sample_interval = atol(optarg);
@@ -190,7 +198,9 @@ int main(int argc, char **argv)
 
         if (logpath)
         {
-            /* Output trace data into the specified location. */
+            if(filename)
+            rc = asprintf(&fname_dat, "%s/%s_%s.powmon.dat", logpath,filename, hostname);
+            else 
             rc = asprintf(&fname_dat, "%s/%s.powmon.dat", logpath, hostname);
             if (rc == -1)
             {
@@ -201,7 +211,9 @@ int main(int argc, char **argv)
         }
         else
         {
-            /* Output trace data into the default location. */
+            if(filename)
+            rc = asprintf(&fname_dat, "%s_%s.powmon.dat",filename, hostname);
+            else
             rc = asprintf(&fname_dat, "%s.powmon.dat", hostname);
             if (rc == -1)
             {

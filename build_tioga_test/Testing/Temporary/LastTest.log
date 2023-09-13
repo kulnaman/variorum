@@ -1,0 +1,664 @@
+Start testing: May 31 12:59 PDT
+----------------------------------------------------------
+1/15 Testing: t_variorum_cap_best_effort_node_power_limit
+1/15 Test: t_variorum_cap_best_effort_node_power_limit
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_cap_best_effort_node_power_limit"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_cap_best_effort_node_power_limit" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from variorum_power_limit
+[ RUN      ] variorum_power_limit.test_cap_best_effort_node_power_limit
+tioga11:/g/g92/namankul/variorum/src/variorum/AMD/epyc.c:epyc_set_and_verify_best_effort_node_power_limit():208: _ERROR_VARIORUM_INVAL: Incorrect permissions
+Failed to set socket[0] _POWERCAP, Err[8]:Invalid permissions
+/g/g92/namankul/variorum/src/tests/variorum/t_variorum_cap_best_effort_node_power_limit.cpp:15: Failure
+Expected equality of these values:
+  0
+  variorum_cap_best_effort_node_power_limit(node_pow_limit)
+    Which is: -1
+[  FAILED  ] variorum_power_limit.test_cap_best_effort_node_power_limit (42 ms)
+[----------] 1 test from variorum_power_limit (42 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (42 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] variorum_power_limit.test_cap_best_effort_node_power_limit
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Failed.
+"t_variorum_cap_best_effort_node_power_limit" end time: May 31 12:59 PDT
+"t_variorum_cap_best_effort_node_power_limit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/15 Testing: t_variorum_cap_gpu_power_ratio
+2/15 Test: t_variorum_cap_gpu_power_ratio
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_cap_gpu_power_ratio"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_cap_gpu_power_ratio" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from variorum_gpu_power_ratio
+[ RUN      ] variorum_gpu_power_ratio.test_cap_gpu_power_ratio
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_cap_gpu_power_ratio():307: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+[       OK ] variorum_gpu_power_ratio.test_cap_gpu_power_ratio (30 ms)
+[----------] 1 test from variorum_gpu_power_ratio (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (30 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"t_variorum_cap_gpu_power_ratio" end time: May 31 12:59 PDT
+"t_variorum_cap_gpu_power_ratio" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/15 Testing: t_variorum_cap_socket_frequency_limit
+3/15 Test: t_variorum_cap_socket_frequency_limit
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_cap_socket_frequency_limit"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_cap_socket_frequency_limit" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from variorum_socket_frequency
+[ RUN      ] variorum_socket_frequency.test_cap_socket_frequency
+tioga11:/g/g92/namankul/variorum/src/variorum/AMD/epyc.c:epyc_set_socket_boostlimit():504: _ERROR_VARIORUM_INVAL: Incorrect permissions
+Failed to set socket[0] _BOOSTLIMIT, Err[8]:Invalid permissions
+/g/g92/namankul/variorum/src/tests/variorum/t_variorum_cap_socket_frequency_limit.cpp:16: Failure
+Expected equality of these values:
+  0
+  variorum_cap_socket_frequency_limit(0, socket0_frequency)
+    Which is: -1
+Failed to set socket[1] _BOOSTLIMIT, Err[18]:Input value is invalid
+/g/g92/namankul/variorum/src/tests/variorum/t_variorum_cap_socket_frequency_limit.cpp:17: Failure
+Expected equality of these values:
+  0
+  variorum_cap_socket_frequency_limit(1, socket1_frequency)
+    Which is: -1
+[  FAILED  ] variorum_socket_frequency.test_cap_socket_frequency (18 ms)
+[----------] 1 test from variorum_socket_frequency (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (18 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] variorum_socket_frequency.test_cap_socket_frequency
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_variorum_cap_socket_frequency_limit" end time: May 31 12:59 PDT
+"t_variorum_cap_socket_frequency_limit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/15 Testing: t_variorum_cap_socket_power_limit
+4/15 Test: t_variorum_cap_socket_power_limit
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_cap_socket_power_limit"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_cap_socket_power_limit" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from variorum_power_limit
+[ RUN      ] variorum_power_limit.test_cap_socket_power_limit
+tioga11:/g/g92/namankul/variorum/src/variorum/AMD/epyc.c:epyc_set_socket_power_limit():280: _ERROR_VARIORUM_INVAL: Incorrect permissions
+Socket |  Powercap(Watts)  |
+Failed to set socket[0] _POWERCAP, Err[8]:Invalid permissions
+/g/g92/namankul/variorum/src/tests/variorum/t_variorum_cap_socket_power_limit.cpp:15: Failure
+Expected equality of these values:
+  0
+  variorum_cap_each_socket_power_limit(socket_power_limit)
+    Which is: -1
+[  FAILED  ] variorum_power_limit.test_cap_socket_power_limit (17 ms)
+[----------] 1 test from variorum_power_limit (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (17 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] variorum_power_limit.test_cap_socket_power_limit
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_variorum_cap_socket_power_limit" end time: May 31 12:59 PDT
+"t_variorum_cap_socket_power_limit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/15 Testing: t_variorum_monitoring
+5/15 Test: t_variorum_monitoring
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_monitoring"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_monitoring" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from variorum_monitoring
+[ RUN      ] variorum_monitoring.test_monitoring
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_monitoring():106: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+[       OK ] variorum_monitoring.test_monitoring (17 ms)
+[----------] 1 test from variorum_monitoring (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (17 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"t_variorum_monitoring" end time: May 31 12:59 PDT
+"t_variorum_monitoring" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/15 Testing: t_variorum_poll_data
+6/15 Test: t_variorum_poll_data
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_poll_data"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_poll_data" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from variorum_poll_data
+[ RUN      ] variorum_poll_data.test_polling
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_poll_power():73: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_poll_power():73: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+[       OK ] variorum_poll_data.test_polling (20 ms)
+[----------] 1 test from variorum_poll_data (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (20 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"t_variorum_poll_data" end time: May 31 12:59 PDT
+"t_variorum_poll_data" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/15 Testing: t_variorum_query_frequency
+7/15 Test: t_variorum_query_frequency
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_frequency"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_query_frequency" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from variorum_queries
+[ RUN      ] variorum_queries.test_verbose_print_frequency
+ Core   | Freq (MHz)  |
+     0  |       3525  |
+     1  |       3525  |
+     2  |       3525  |
+     3  |       3525  |
+     4  |       3525  |
+     5  |       3525  |
+     6  |       3525  |
+     7  |       3525  |
+     8  |       3525  |
+     9  |       3525  |
+    10  |       3525  |
+    11  |       3525  |
+    12  |       3525  |
+    13  |       3525  |
+    14  |       3525  |
+    15  |       3525  |
+    16  |       3525  |
+    17  |       3525  |
+    18  |       3525  |
+    19  |       3525  |
+    20  |       3525  |
+    21  |       3525  |
+    22  |       3525  |
+    23  |       3525  |
+    24  |       3525  |
+    25  |       3525  |
+    26  |       3525  |
+    27  |       3525  |
+    28  |       3525  |
+    29  |       3525  |
+    30  |       3525  |
+    31  |       3525  |
+    32  |       3525  |
+    33  |       3525  |
+    34  |       3525  |
+    35  |       3525  |
+    36  |       3525  |
+    37  |       3525  |
+    38  |       3525  |
+    39  |       3525  |
+    40  |       3525  |
+    41  |       3525  |
+    42  |       3525  |
+    43  |       3525  |
+    44  |       3525  |
+    45  |       3525  |
+    46  |       3525  |
+    47  |       3525  |
+    48  |       3525  |
+    49  |       3525  |
+    50  |       3525  |
+    51  |       3525  |
+    52  |       3525  |
+    53  |       3525  |
+    54  |       3525  |
+    55  |       3525  |
+    56  |       3525  |
+    57  |       3525  |
+    58  |       3525  |
+    59  |       3525  |
+    60  |       3525  |
+    61  |       3525  |
+    62  |       3525  |
+    63  |       3525  |
+_AMD_GPU_CLOCKS Host: tioga11, Socket: 0, DeviceID: 0, SystemClock: 800 MHz, MemoryClock: 1600 MHz, Timestamp: 0.000000 sec
+_AMD_GPU_CLOCKS Host: tioga11, Socket: 0, DeviceID: 1, SystemClock: 800 MHz, MemoryClock: 1600 MHz, Timestamp: 0.000000 sec
+_AMD_GPU_CLOCKS Host: tioga11, Socket: 0, DeviceID: 2, SystemClock: 800 MHz, MemoryClock: 1600 MHz, Timestamp: 0.000000 sec
+_AMD_GPU_CLOCKS Host: tioga11, Socket: 0, DeviceID: 3, SystemClock: 800 MHz, MemoryClock: 1600 MHz, Timestamp: 0.000000 sec
+_AMD_GPU_CLOCKS Host: tioga11, Socket: 0, DeviceID: 4, SystemClock: 800 MHz, MemoryClock: 1600 MHz, Timestamp: 0.000000 sec
+_AMD_GPU_CLOCKS Host: tioga11, Socket: 0, DeviceID: 5, SystemClock: 800 MHz, MemoryClock: 1600 MHz, Timestamp: 0.000000 sec
+_AMD_GPU_CLOCKS Host: tioga11, Socket: 0, DeviceID: 6, SystemClock: 800 MHz, MemoryClock: 1600 MHz, Timestamp: 0.000000 sec
+_AMD_GPU_CLOCKS Host: tioga11, Socket: 0, DeviceID: 7, SystemClock: 800 MHz, MemoryClock: 1600 MHz, Timestamp: 0.000000 sec
+[       OK ] variorum_queries.test_verbose_print_frequency (58 ms)
+[ RUN      ] variorum_queries.test_print_frequency
+ Core   | Freq (MHz)  |
+     0  |       3525  |
+     1  |       3525  |
+     2  |       3525  |
+     3  |       3525  |
+     4  |       3525  |
+     5  |       3525  |
+     6  |       3525  |
+     7  |       3525  |
+     8  |       3525  |
+     9  |       3525  |
+    10  |       3525  |
+    11  |       3525  |
+    12  |       3525  |
+    13  |       3525  |
+    14  |       3525  |
+    15  |       3525  |
+    16  |       3525  |
+    17  |       3525  |
+    18  |       3525  |
+    19  |       3525  |
+    20  |       3525  |
+    21  |       3525  |
+    22  |       3525  |
+    23  |       3525  |
+    24  |       3525  |
+    25  |       3525  |
+    26  |       3525  |
+    27  |       3525  |
+    28  |       3525  |
+    29  |       3525  |
+    30  |       3525  |
+    31  |       3525  |
+    32  |       3525  |
+    33  |       3525  |
+    34  |       3525  |
+    35  |       3525  |
+    36  |       3525  |
+    37  |       3525  |
+    38  |       3525  |
+    39  |       3525  |
+    40  |       3525  |
+    41  |       3525  |
+    42  |       3525  |
+    43  |       3525  |
+    44  |       3525  |
+    45  |       3525  |
+    46  |       3525  |
+    47  |       3525  |
+    48  |       3525  |
+    49  |       3525  |
+    50  |       3525  |
+    51  |       3525  |
+    52  |       3525  |
+    53  |       3525  |
+    54  |       3525  |
+    55  |       3525  |
+    56  |       3525  |
+    57  |       3525  |
+    58  |       3525  |
+    59  |       3525  |
+    60  |       3525  |
+    61  |       3525  |
+    62  |       3525  |
+    63  |       3525  |
+_AMD_GPU_CLOCKS tioga11 0 0 800 1600 0.053881
+_AMD_GPU_CLOCKS tioga11 0 1 800 1600 0.053881
+_AMD_GPU_CLOCKS tioga11 0 2 800 1600 0.053881
+_AMD_GPU_CLOCKS tioga11 0 3 800 1600 0.053881
+_AMD_GPU_CLOCKS tioga11 0 4 800 1600 0.053881
+_AMD_GPU_CLOCKS tioga11 0 5 800 1600 0.053881
+_AMD_GPU_CLOCKS tioga11 0 6 800 1600 0.053881
+_AMD_GPU_CLOCKS tioga11 0 7 800 1600 0.053881
+[       OK ] variorum_queries.test_print_frequency (52 ms)
+[----------] 2 tests from variorum_queries (111 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (111 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"t_variorum_query_frequency" end time: May 31 12:59 PDT
+"t_variorum_query_frequency" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/15 Testing: t_variorum_query_counters
+8/15 Test: t_variorum_query_counters
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_counters"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_query_counters" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from variorum_queries
+[ RUN      ] variorum_queries.test_verbose_print_counters
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_print_verbose_counters():605: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_print_verbose_counters():605: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+[       OK ] variorum_queries.test_verbose_print_counters (20 ms)
+[ RUN      ] variorum_queries.test_print_counters
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_print_counters():572: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_print_counters():572: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+[       OK ] variorum_queries.test_print_counters (2 ms)
+[----------] 2 tests from variorum_queries (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (23 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"t_variorum_query_counters" end time: May 31 12:59 PDT
+"t_variorum_query_counters" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/15 Testing: t_variorum_query_gpu_utilization
+9/15 Test: t_variorum_query_gpu_utilization
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_gpu_utilization"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_query_gpu_utilization" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from variorum_queries
+[ RUN      ] variorum_queries.test_verbose_gpu_util
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_print_verbose_gpu_utilization():867: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+_AMD_GPU_UTILIZATION Host: tioga11, Socket: 0, DeviceID: 0,Util: 0%
+_AMD_GPU_UTILIZATION Host: tioga11, Socket: 0, DeviceID: 1,Util: 0%
+_AMD_GPU_UTILIZATION Host: tioga11, Socket: 0, DeviceID: 2,Util: 0%
+_AMD_GPU_UTILIZATION Host: tioga11, Socket: 0, DeviceID: 3,Util: 0%
+_AMD_GPU_UTILIZATION Host: tioga11, Socket: 0, DeviceID: 4,Util: 0%
+_AMD_GPU_UTILIZATION Host: tioga11, Socket: 0, DeviceID: 5,Util: 0%
+_AMD_GPU_UTILIZATION Host: tioga11, Socket: 0, DeviceID: 6,Util: 0%
+_AMD_GPU_UTILIZATION Host: tioga11, Socket: 0, DeviceID: 7,Util: 0%
+[       OK ] variorum_queries.test_verbose_gpu_util (26 ms)
+[ RUN      ] variorum_queries.test_print_gpu_util
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_print_gpu_utilization():834: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+_AMD_GPU_UTILIZATION tioga11 0 0 0
+_AMD_GPU_UTILIZATION tioga11 0 1 0
+_AMD_GPU_UTILIZATION tioga11 0 2 0
+_AMD_GPU_UTILIZATION tioga11 0 3 0
+_AMD_GPU_UTILIZATION tioga11 0 4 0
+_AMD_GPU_UTILIZATION tioga11 0 5 0
+_AMD_GPU_UTILIZATION tioga11 0 6 0
+_AMD_GPU_UTILIZATION tioga11 0 7 0
+[       OK ] variorum_queries.test_print_gpu_util (7 ms)
+[----------] 2 tests from variorum_queries (33 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (34 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"t_variorum_query_gpu_utilization" end time: May 31 12:59 PDT
+"t_variorum_query_gpu_utilization" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/15 Testing: t_variorum_query_hyperthreading
+10/15 Test: t_variorum_query_hyperthreading
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_hyperthreading"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_query_hyperthreading" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from variorum_queries
+[ RUN      ] variorum_queries.test_print_hyperthreading
+  Hyperthreading:       Disabled
+  Hyperthreading:       Disabled
+[       OK ] variorum_queries.test_print_hyperthreading (18 ms)
+[----------] 1 test from variorum_queries (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (18 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"t_variorum_query_hyperthreading" end time: May 31 12:59 PDT
+"t_variorum_query_hyperthreading" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/15 Testing: t_variorum_query_power
+11/15 Test: t_variorum_query_power
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_power"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_query_power" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from variorum_queries
+[ RUN      ] variorum_queries.test_verbose_print_power
+_AMDPOWER Host: tioga11, Socket: 0, Power: 125.005000 W, Timestamp: 0.000000 sec
+_AMD_GPU_POWER_USAGE Host: tioga11, Socket: 0, DeviceID: 0, Power: 93.00 W, Timestamp: 0.000000 sec
+_AMD_GPU_POWER_USAGE Host: tioga11, Socket: 0, DeviceID: 1, Power: 0.00 W, Timestamp: 0.000000 sec
+_AMD_GPU_POWER_USAGE Host: tioga11, Socket: 0, DeviceID: 2, Power: 95.00 W, Timestamp: 0.000000 sec
+_AMD_GPU_POWER_USAGE Host: tioga11, Socket: 0, DeviceID: 3, Power: 0.00 W, Timestamp: 0.000000 sec
+_AMD_GPU_POWER_USAGE Host: tioga11, Socket: 0, DeviceID: 4, Power: 90.00 W, Timestamp: 0.000000 sec
+_AMD_GPU_POWER_USAGE Host: tioga11, Socket: 0, DeviceID: 5, Power: 0.00 W, Timestamp: 0.000000 sec
+_AMD_GPU_POWER_USAGE Host: tioga11, Socket: 0, DeviceID: 6, Power: 94.00 W, Timestamp: 0.000000 sec
+_AMD_GPU_POWER_USAGE Host: tioga11, Socket: 0, DeviceID: 7, Power: 0.00 W, Timestamp: 0.000000 sec
+[       OK ] variorum_queries.test_verbose_print_power (24 ms)
+[ RUN      ] variorum_queries.test_print_power
+_AMDPOWER tioga11 0 125.063000 0.007726
+_AMD_GPU_POWER_USAGE tioga11 0 0 93.00 0.007590
+_AMD_GPU_POWER_USAGE tioga11 0 1 0.00 0.007590
+_AMD_GPU_POWER_USAGE tioga11 0 2 95.00 0.007590
+_AMD_GPU_POWER_USAGE tioga11 0 3 0.00 0.007590
+_AMD_GPU_POWER_USAGE tioga11 0 4 90.00 0.007590
+_AMD_GPU_POWER_USAGE tioga11 0 5 0.00 0.007590
+_AMD_GPU_POWER_USAGE tioga11 0 6 94.00 0.007590
+_AMD_GPU_POWER_USAGE tioga11 0 7 0.00 0.007590
+[       OK ] variorum_queries.test_print_power (7 ms)
+[----------] 2 tests from variorum_queries (31 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (31 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"t_variorum_query_power" end time: May 31 12:59 PDT
+"t_variorum_query_power" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/15 Testing: t_variorum_query_power_limit
+12/15 Test: t_variorum_query_power_limit
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_power_limit"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_query_power_limit" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from variorum_queries
+[ RUN      ] variorum_queries.test_verbose_print_power_limit
+_AMDPOWER Host: tioga11, Socket: 0, Power: 125.155000 W, PowerCap: 240.000000 W, MaxPowerCap: 240.000000 W, Timestamp: 0.000001 sec
+_AMD_GPU_POWER_CAP Host: tioga11, Socket: 0, DeviceID: 0, PowerCap_Current: 560.00 W, PowerCap_Min: 0 W, PowerCap_Max: 560 W,Timestamp: 0.000000 sec
+_AMD_GPU_POWER_CAP Host: tioga11, Socket: 0, DeviceID: 1, PowerCap_Current: 0.00 W, PowerCap_Min: 0 W, PowerCap_Max: 560 W,Timestamp: 0.000000 sec
+_AMD_GPU_POWER_CAP Host: tioga11, Socket: 0, DeviceID: 2, PowerCap_Current: 560.00 W, PowerCap_Min: 0 W, PowerCap_Max: 560 W,Timestamp: 0.000000 sec
+_AMD_GPU_POWER_CAP Host: tioga11, Socket: 0, DeviceID: 3, PowerCap_Current: 0.00 W, PowerCap_Min: 0 W, PowerCap_Max: 560 W,Timestamp: 0.000000 sec
+_AMD_GPU_POWER_CAP Host: tioga11, Socket: 0, DeviceID: 4, PowerCap_Current: 560.00 W, PowerCap_Min: 0 W, PowerCap_Max: 560 W,Timestamp: 0.000000 sec
+_AMD_GPU_POWER_CAP Host: tioga11, Socket: 0, DeviceID: 5, PowerCap_Current: 0.00 W, PowerCap_Min: 0 W, PowerCap_Max: 560 W,Timestamp: 0.000000 sec
+_AMD_GPU_POWER_CAP Host: tioga11, Socket: 0, DeviceID: 6, PowerCap_Current: 560.00 W, PowerCap_Min: 0 W, PowerCap_Max: 560 W,Timestamp: 0.000000 sec
+_AMD_GPU_POWER_CAP Host: tioga11, Socket: 0, DeviceID: 7, PowerCap_Current: 0.00 W, PowerCap_Min: 0 W, PowerCap_Max: 560 W,Timestamp: 0.000000 sec
+[       OK ] variorum_queries.test_verbose_print_power_limit (36 ms)
+[ RUN      ] variorum_queries.test_print_power_limit
+_AMDPOWER tioga11 0 125.312000 240.000000 240.000000 0.008665
+_AMD_GPU_POWER_CAP tioga11 0 0 560.00 0 560 0.008337
+_AMD_GPU_POWER_CAP tioga11 0 1 0.00 0 560 0.008337
+_AMD_GPU_POWER_CAP tioga11 0 2 560.00 0 560 0.008337
+_AMD_GPU_POWER_CAP tioga11 0 3 0.00 0 560 0.008337
+_AMD_GPU_POWER_CAP tioga11 0 4 560.00 0 560 0.008337
+_AMD_GPU_POWER_CAP tioga11 0 5 0.00 0 560 0.008337
+_AMD_GPU_POWER_CAP tioga11 0 6 560.00 0 560 0.008337
+_AMD_GPU_POWER_CAP tioga11 0 7 0.00 0 560 0.008337
+[       OK ] variorum_queries.test_print_power_limit (8 ms)
+[----------] 2 tests from variorum_queries (44 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (44 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"t_variorum_query_power_limit" end time: May 31 12:59 PDT
+"t_variorum_query_power_limit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/15 Testing: t_variorum_query_thermals
+13/15 Test: t_variorum_query_thermals
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_thermals"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_query_thermals" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from variorum_queries
+[ RUN      ] variorum_queries.test_verbose_print_thermals
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_print_verbose_thermals():539: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+_AMD_GPU_TEMPERATURE Host: tioga11, Socket: 0, DeviceID: 0, Temperature: 33.00 C, Timestamp: 0.000001 sec
+_AMD_GPU_TEMPERATURE Host: tioga11, Socket: 0, DeviceID: 1, Temperature: 35.00 C, Timestamp: 0.000001 sec
+_AMD_GPU_TEMPERATURE Host: tioga11, Socket: 0, DeviceID: 2, Temperature: 28.00 C, Timestamp: 0.000001 sec
+_AMD_GPU_TEMPERATURE Host: tioga11, Socket: 0, DeviceID: 3, Temperature: 32.00 C, Timestamp: 0.000001 sec
+_AMD_GPU_TEMPERATURE Host: tioga11, Socket: 0, DeviceID: 4, Temperature: 36.00 C, Timestamp: 0.000001 sec
+_AMD_GPU_TEMPERATURE Host: tioga11, Socket: 0, DeviceID: 5, Temperature: 39.00 C, Timestamp: 0.000001 sec
+_AMD_GPU_TEMPERATURE Host: tioga11, Socket: 0, DeviceID: 6, Temperature: 30.00 C, Timestamp: 0.000001 sec
+_AMD_GPU_TEMPERATURE Host: tioga11, Socket: 0, DeviceID: 7, Temperature: 33.00 C, Timestamp: 0.000001 sec
+[       OK ] variorum_queries.test_verbose_print_thermals (24 ms)
+[ RUN      ] variorum_queries.test_print_thermals
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_print_thermals():506: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+_AMD_GPU_TEMPERATURE tioga11 0 0 33.00 0.008159
+_AMD_GPU_TEMPERATURE tioga11 0 1 35.00 0.008159
+_AMD_GPU_TEMPERATURE tioga11 0 2 29.00 0.008159
+_AMD_GPU_TEMPERATURE tioga11 0 3 32.00 0.008159
+_AMD_GPU_TEMPERATURE tioga11 0 4 35.00 0.008159
+_AMD_GPU_TEMPERATURE tioga11 0 5 39.00 0.008159
+_AMD_GPU_TEMPERATURE tioga11 0 6 31.00 0.008159
+_AMD_GPU_TEMPERATURE tioga11 0 7 33.00 0.008159
+[       OK ] variorum_queries.test_print_thermals (8 ms)
+[----------] 2 tests from variorum_queries (32 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (33 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"t_variorum_query_thermals" end time: May 31 12:59 PDT
+"t_variorum_query_thermals" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/15 Testing: t_variorum_query_turbo
+14/15 Test: t_variorum_query_turbo
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_query_turbo"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_query_turbo" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from variorum_queries
+[ RUN      ] variorum_queries.test_print_turbo
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_print_turbo():801: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_print_turbo():801: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+[       OK ] variorum_queries.test_print_turbo (17 ms)
+[----------] 1 test from variorum_queries (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (17 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"t_variorum_query_turbo" end time: May 31 12:59 PDT
+"t_variorum_query_turbo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/15 Testing: t_variorum_toggle_turbo
+15/15 Test: t_variorum_toggle_turbo
+Command: "/g/g92/namankul/variorum/build_tioga_test/tests/variorum/t_variorum_toggle_turbo"
+Directory: /g/g92/namankul/variorum/build_tioga_test/tests/variorum
+"t_variorum_toggle_turbo" start time: May 31 12:59 PDT
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from variorum_toggle_turbo
+[ RUN      ] variorum_toggle_turbo.test_disable_turbo
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_disable_turbo():933: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+[       OK ] variorum_toggle_turbo.test_disable_turbo (17 ms)
+[ RUN      ] variorum_toggle_turbo.test_enable_turbo
+tioga11:/g/g92/namankul/variorum/src/variorum/variorum.c:variorum_enable_turbo():900: _ERROR_VARIORUM_FEATURE_NOT_IMPLEMENTED: Feature not yet implemented or is not supported
+[       OK ] variorum_toggle_turbo.test_enable_turbo (1 ms)
+[----------] 2 tests from variorum_toggle_turbo (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (18 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"t_variorum_toggle_turbo" end time: May 31 12:59 PDT
+"t_variorum_toggle_turbo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 31 12:59 PDT
