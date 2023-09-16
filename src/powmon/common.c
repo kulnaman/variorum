@@ -205,8 +205,8 @@ void *power_measurement(void *arg)
     // According to the Intel docs, the counter wraps at most once per second.
     // 50 ms should be short enough to always get good information (this is
     // default).
-    printf("Using sampling interval of: %ld ms\n", th_args.sample_interval);
-    printf("Using verbosity of: %d\n", th_args.measure_all);
+    // printf("Using sampling interval of: %ld ms\n", th_args.sample_interval);
+    // printf("Using verbosity of: %d\n", th_args.measure_all);
     init_msTimer(&timer, th_args.sample_interval);
     start = now_ms();
 

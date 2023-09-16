@@ -242,11 +242,11 @@ int main(int argc, char **argv)
 
         if (logpath)
         {
-            printf("Trace and summary files will be dumped in %s/\n", logpath);
+            // printf("Trace and summary files will be dumped in %s/\n", logpath);
         }
         else
         {
-            printf("Trace and summary files will be dumped in ./\n");
+            // printf("Trace and summary files will be dumped in ./\n");
         }
 
         /* Start power measurement thread. */
@@ -270,7 +270,6 @@ int main(int argc, char **argv)
             }
             printf("\n");
             execvp(arg[0], &arg[0]);
-            printf("Fork failure\n");
             return 1;
         }
         /* Wait. */
@@ -368,9 +367,6 @@ int main(int argc, char **argv)
         highlander_wait();
     }
 
-    printf("Output Files:\n"
-           "  %s\n"
-           "  %s\n\n", fname_dat, fname_summary);
     highlander_clean();
     free(fname_dat);
     free(fname_summary);

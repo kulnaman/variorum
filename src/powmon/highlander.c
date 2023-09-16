@@ -40,9 +40,7 @@ int highlander(void)
 int highlander_clean(void)
 {
     // remove the named semaphores
-    fprintf(stdout, "Removing named semaphore /power_wrapperK\n");
     sem_unlink("/power_wrapperK");
-    fprintf(stdout, "Removing named semaphore /power_wrapperL\n");
     sem_unlink("/power_wrapperL");
     return 1;
 }
