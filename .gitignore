@@ -8,3 +8,5 @@ cmake_install.cmake
 libvariorum.a
 libvariorum.so
 src/variorum/variorum_config.h
+build*/
+install*/
