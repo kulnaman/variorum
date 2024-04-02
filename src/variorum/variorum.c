@@ -1739,7 +1739,7 @@ int variorum_get_energy_json(char **get_energy_obj_str)
                                        VARIORUM_ERROR_FEATURE_NOT_IMPLEMENTED,
                                        getenv("HOSTNAME"), __FILE__,
                                        __FUNCTION__, __LINE__);
-        return 0;
+                return 0;
             }
             err = g_platform[i].variorum_get_energy_json(node_obj);
             if (err)
